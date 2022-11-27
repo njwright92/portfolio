@@ -22,3 +22,7 @@ ul  {
     border: solid; color: black; 
     background-color: gray;
 }
+
+footer  {
+    text-color: blue;
+}
