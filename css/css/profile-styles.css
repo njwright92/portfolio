@@ -1,9 +1,11 @@
 body {
-    background-color: gray;
+    background-color: white;
     font-family: Arial, Helvetica, sans-serif;
 }
 
 h1  {
+    margin-bottom: 0;
+    margin-top: 0;
     text-emphasis-style: bold;
     background-color: olive;
     border-style: solid;
@@ -18,11 +20,10 @@ h2  {
 }
 
 ul  {
-    padding: 5%;
     border: solid; color: black; 
     background-color: gray;
 }
 
-footer  {
-    text-color: blue;
+.navbar  {
+    background-color: black
 }
