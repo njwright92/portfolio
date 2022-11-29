@@ -1,11 +1,9 @@
 body {
-    background-color: white;
+    background-color: beige;
     font-family: "open sans", sans-serif;
 }
 
 h1  {
-    margin-bottom: 0;
-    margin-top: 0;
     text-emphasis-style: bold;
     background-color: olive;
     border-style: solid;
@@ -28,4 +26,10 @@ footer  {
 }
 .navbar  {
     background-color: black
+}
+
+.row-content  {
+    padding: 50px 0;
+    border-bottom: 1px ridge;
+    min-height: 200px;
 }
