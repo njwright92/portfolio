@@ -20,7 +20,7 @@ function getSport()  {
                 return
             } correct = checkGuess(guess, target)
         } while (!correct)  {
-            alert("Finally you chose wisely \n it took you " + numTries + " to guess correctly! \n Scroll to bottom to chekcout prize" );
+            alert("Finally you chose wisely \n it took you " + numTries + " to guess correctly! \n Scroll to bottom to chekcout prize");
             showGif();
         }
 }
