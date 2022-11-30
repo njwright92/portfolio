@@ -3,14 +3,7 @@ body {
     font-family: "open sans", sans-serif;
 }
 
-h1  {
-    text-emphasis-style: bold;
-    background-color: olive;
-    border-style: solid;
-    text-align: center;
-}
-
-h2  {
+h1, h2, h3 {
     text-emphasis: bold;
     text-align: center;
     border: dotted; color: black;
