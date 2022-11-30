@@ -1,3 +1,9 @@
+function showGif()  {
+    const img = document.createElement("img");
+    img.src = "images/ripper-snowboarder.gif";
+    document.body.appendChild(img);
+}
+
 const favoriteSport = ["baseball", "football", "skateboarding", "snowboarding"];
 favoriteSport.sort();
 function getSport()  {
@@ -5,9 +11,7 @@ function getSport()  {
     let numTries = 0;
     let correct = false;
     const target = "snowboarding";
-
     console.log(target);
-
         do  {
             guess = prompt("what is my favorite sport? you have 3 guesses\n\n" + favoriteSport.join(', '));
             numTries += 1;
@@ -16,7 +20,7 @@ function getSport()  {
                 return
             } correct = checkGuess(guess, target)
         } while (!correct)  {
-            alert("finally you chose wisely \n it took you " + numTries + " tries to guess correctly");
+            alert("Finally you chose wisely \n it took you " + numTries + " to guess correctly! \n Scroll to bottom to chekcout prize" );
             showGif();
         }
 }
@@ -35,10 +39,4 @@ function checkGuess(guess)  {
     } else {
         correct = true;
     } return correct;
-}
-
-function showGif()  {
-    const img = document.createElement("img");
-    img.src = "images/ripper-snowboarder.gif";
-    document.body.appendChild(img);
 }
