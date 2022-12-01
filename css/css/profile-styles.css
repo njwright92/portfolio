@@ -1,22 +1,32 @@
 body {
-    background-color: beige;
+    background-color: olive;
     font-family: "open sans", sans-serif;
+    text-emphasis: bold;
 }
 
 h1, h2, h3 {
-    text-emphasis: bold;
     text-align: center;
-    border: dotted; color: black;
-    background-color: olive;
+    text: black
+
 }
 
-ul  {
-    border: solid; color: black; 
-    background-color: gray;
-}
 footer  {
     font-family: "lobster";
 }
+
 .navbar  {
     background-color: black
+}
+
+.jumbotron  {
+    margin: 0;
+    padding: 30px;
+    background-image: linear-gradient(to right, olivedrab, orange, olivedrab);
+    color: black;
+}
+
+.row-content  {
+    padding: 50px 0;
+    border-bottom: 1px ridge;
+    min-height: 200px;
 }
