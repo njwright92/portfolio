@@ -1,0 +1,36 @@
+.jumbotron  {
+    margin: 0;
+    padding: 30px;
+    background-image: linear-gradient(to top, silver, gray, blue);
+    color: black;
+}
+
+body {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    background-image: linear-gradient(to bottom, silver, gray, beige);
+}
+
+.navbar  {
+    background-color: navy;
+}
+
+.row-content  {
+    border: 3px solid;
+    min-height: 200px;
+}
+
+h1  {
+    text-align: center;
+    text-size-adjust: X-large;
+}
+
+footer  {
+    padding: 20px 0;
+    border: solid;
+    background-color: whitesmoke;
+}
+
+h2, h4, p {
+    text-align: center;
+    text-emphasis: bold;
+}
