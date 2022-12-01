@@ -21,7 +21,7 @@ body {
 
 h1  {
     text-align: center;
-    text-size-adjust: X-large;
+    font-size: 150px;
 }
 
 footer  {
@@ -33,4 +33,9 @@ footer  {
 h2, h4, h5, p {
     text-align: center;
     text-emphasis: bold;
+}
+
+h3  {
+    text-align: center;
+    font-size: 75px;
 }
