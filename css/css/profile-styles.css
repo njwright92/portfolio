@@ -1,7 +1,7 @@
 body {
     background-color: olive;
     font-family: "open sans", sans-serif;
-    text-emphasis: bold;
+    font-size: larger;
 }
 
 h1, h2, h3 {
@@ -12,6 +12,7 @@ h1, h2, h3 {
 
 footer  {
     font-family: "lobster";
+    background-color: black;
 }
 
 .navbar  {
