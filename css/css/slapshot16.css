@@ -39,3 +39,18 @@ h3  {
     text-align: center;
     font-size: 75px;
 }
+a  {
+    color: inherit;
+}
+a:hover {
+    color: inherit;
+    background-color: lightslategray;
+  }
+
+.carousel-caption {
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.carousel {
+    border: solid #5637DD;
+}
