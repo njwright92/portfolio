@@ -13,14 +13,14 @@ function getSport()  {
     const target = "snowboarding";
     console.log(target);
         do  {
-            guess = prompt("what is my favorite sport? you have 3 guesses\n\n" + favoriteSport.join(', '));
+            guess = prompt(`what is my favorite sport? you have 3 guesses`);
             numTries += 1;
             if (guess === null) {
                 alert("game aborted");
                 return
             } correct = checkGuess(guess, target)
         } while (!correct)  {
-            alert("Finally you chose wisely \n it took you " + numTries + " to guess correctly! \n Scroll to bottom to chekcout prize");
+            alert(`Finally you chose wisely it took you ${numTries} to guess correctly! \n Scroll to bottom to chekcout prize`);
             showGif();
         }
 }
