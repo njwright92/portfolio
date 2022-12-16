@@ -30,7 +30,7 @@ function checkGuess(guess)  {
     if (!favoriteSport.includes(guess))  {
         alert("Your guess is not one of the choices.")
     } else if (guess === "baseball")  {
-        alert("incorIect guess again.");
+        alert("incorrect guess again.");
     } else if (guess === "football")  {
         alert("Not even close dummy.");
     } else if (guess === "skateboarding")  {
