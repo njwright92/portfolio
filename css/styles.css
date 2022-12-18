@@ -20,7 +20,7 @@ footer  {
 
 .jumbotron  {
     margin: 0;
-    padding: 30px;
+    padding: 1rem;
     background-image: linear-gradient(to right, olivedrab, orange, olivedrab);
     color: black;
 }
@@ -28,11 +28,11 @@ footer  {
 .row-content  {
     padding: 50px 0;
     border-bottom: 1px ridge;
-    min-height: 200px;
+    min-height: 20rem;
 }
 
 .tab-content  {
     border: 1px solid #DDD;
     border-top: none;
-    padding: 10px;
+    padding: 1rem;
 }
