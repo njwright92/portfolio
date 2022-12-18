@@ -26,13 +26,17 @@ footer  {
 }
 
 .row-content  {
-    padding: 50px 0;
-    border-bottom: 1px ridge;
-    min-height: 20rem;
+    padding: 1rem;
+    border-bottom: 1rem ridge;
 }
 
 .tab-content  {
-    border: 1px solid #DDD;
+    border: .5rem solid #DDD;
     border-top: none;
     padding: 1rem;
+}
+
+footer div  {
+    text-align: center;
+    align-content: center;
 }
