@@ -1,3 +1,7 @@
+const game = document.querySelector('#about');
+game.addEventListener('click', getSport);
+
+
 function showGif()  {
     const img = document.createElement("img");
     img.src = "images/ripper-snowboarder.gif";
@@ -6,6 +10,7 @@ function showGif()  {
 
 const favoriteSport = ["baseball", "football", "skateboarding", "snowboarding"];
 favoriteSport.sort();
+
 function getSport()  {
     let guess;
     let numTries = 0;
