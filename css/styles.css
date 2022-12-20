@@ -1,42 +1,47 @@
-
 body {
     background-color: olive;
     font-family: "open sans", sans-serif;
     font-size: larger;
 }
 
-h1, h2, h3 {
+h1,
+h2,
+h3 {
     text-align: center;
 }
 
-footer  {
+footer {
     font-family: "lobster";
     background-color: black;
 }
 
-.navbar  {
+.navbar {
     background-color: black
 }
 
-.jumbotron  {
+.jumbotron {
     margin: 0;
     padding: 1rem;
     background-image: linear-gradient(to right, olivedrab, orange, olivedrab);
     color: black;
 }
 
-.row-content  {
+.row-content {
     padding: 1rem;
     border-bottom: 1rem ridge;
 }
 
-.tab-content  {
+.tab-content {
     border: .5rem solid #DDD;
     border-top: none;
     padding: 1rem;
 }
 
-footer div  {
+footer div {
     text-align: center;
     align-content: center;
+}
+
+#about {
+    margin-top: 1em;
 }
