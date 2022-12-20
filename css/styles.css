@@ -1,5 +1,5 @@
 body {
-    background-color: olive;
+    background-image: linear-gradient(to bottom, olivedrab, orange);
     font-family: "open sans", sans-serif;
     font-size: larger;
 }

@@ -10,7 +10,7 @@ function getSport() {
     let correct = false;
     console.log();
     do {
-        guess = prompt(`what is my favorite sport? Your options are \n\n ${favoriteSport.join(" , ")}`);
+        guess = prompt(`what is my favorite sport? Your options are \n\n ${favoriteSport.join(", ")}`);
         numTries += 1;
         if (guess === null) {
             alert("game aborted");
