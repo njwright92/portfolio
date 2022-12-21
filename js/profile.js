@@ -19,10 +19,13 @@ function getSport() {
     } while (!correct) {
         const img = document.createElement("img");
         img.src = "images/ripper-snowboarder.gif";
-        document.body.appendChild(img)
+        const gif_game = document.getElementById("gif_game");
+        gif_game.appendChild(img);
         alert(`Finally you chose wisely.\n It took you ${numTries} to guess correctly! \n Scroll to bottom to checkout prize!`);
     }
 }
+
+
 
 function checkGuess(guess) {
     let correct = false;
