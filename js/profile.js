@@ -21,7 +21,7 @@ function getSport() {
         img.src = "images/ripper-snowboarder.gif";
         const gif_game = document.getElementById("gif_game");
         gif_game.appendChild(img);
-        alert(`Finally you chose wisely.\n It took you ${numTries} to guess correctly! \n Scroll to bottom to checkout prize!`);
+        alert(`Winner! Snowboardings my favorite, it only took you ${numTries} tries!`);
     }
 }
 
