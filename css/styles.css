@@ -3,9 +3,7 @@ body {
     font-family: "open sans", sans-serif;
     font-size: larger;
     text-align: center;
-    align-content: center;
-    align-items: center;
-    align-self: center;
+
 }
 
 
@@ -54,6 +52,5 @@ footer div {
 .carousel-item {
     width: 20rem;
     height: 20rem;
-    align-self: center;
     margin-bottom: 2rem;
 }
