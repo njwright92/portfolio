@@ -2,7 +2,12 @@ body {
     background-image: linear-gradient(to bottom, olivedrab, orange);
     font-family: "open sans", sans-serif;
     font-size: larger;
+    text-align: center;
+    align-content: center;
+    align-items: center;
+    align-self: center;
 }
+
 
 h1,
 h2,
@@ -44,4 +49,11 @@ footer div {
 
 #about {
     margin-top: 1em;
+}
+
+.carousel-item {
+    width: 20rem;
+    height: 20rem;
+    align-self: center;
+    margin-bottom: 2rem;
 }
