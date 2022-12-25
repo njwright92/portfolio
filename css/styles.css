@@ -2,7 +2,6 @@ body {
     background-image: linear-gradient(to bottom, olivedrab, orange);
     font-family: "open sans", sans-serif;
     font-size: larger;
-    text-align: center;
 
 }
 
@@ -50,23 +49,23 @@ footer div {
 }
 
 .carousel-item {
-    height: 20rem;
+    height: 25rem;
 }
 
 .vert .carousel-item-next.carousel-item-left,
 .vert .carousel-item-prev.carousel-item-right {
     -webkit-transform: translate3d(0, 0, 0);
-            transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
 }
 
 .vert .carousel-item-next,
 .vert .active.carousel-item-right {
     -webkit-transform: translate3d(0, 100%, 0);
-            transform: translate3d(0, 100% 0);
+    transform: translate3d(0, 100% 0);
 }
 
 .vert .carousel-item-prev,
 .vert .active.carousel-item-left {
--webkit-transform: translate3d(0,-100%, 0);
-        transform: translate3d(0,-100%, 0);
+    -webkit-transform: translate3d(0, -100%, 0);
+    transform: translate3d(0, -100%, 0);
 }
