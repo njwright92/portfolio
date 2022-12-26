@@ -14,8 +14,7 @@ h3 {
 }
 
 footer {
-    font-family: "lobster";
-    background-color: black;
+    background-color: darkslategrey;
 }
 
 .navbar {
@@ -30,8 +29,7 @@ footer {
 }
 
 .row-content {
-    padding: .5em;
-    border-bottom: 1em ridge;
+    border: .75em ridge;
 }
 
 .tab-content {
@@ -40,9 +38,21 @@ footer {
     padding: .25em;
 }
 
+#btn {
+    margin-top: .5rem;
+    margin-left: .5rem;
+    margin-bottom: 1rem;
+    margin-right: .5rem;
+}
+
 footer div {
     text-align: center;
     align-content: center;
+}
+
+.carousel {
+    margin-top: 1em;
+    margin-bottom: 1em;
 }
 
 #about {
