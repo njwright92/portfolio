@@ -23,20 +23,20 @@ footer {
 
 .jumbotron {
     margin: 0;
-    padding: 1rem;
+    padding: 1em;
     background-image: linear-gradient(to right, olivedrab, orange, olivedrab);
     color: black;
 }
 
 .row-content {
-    padding: 1rem;
-    border-bottom: 1rem ridge;
+    padding: .5em;
+    border-bottom: 1em ridge;
 }
 
 .tab-content {
-    border: .5rem solid #DDD;
+    border: .25em solid #DDD;
     border-top: none;
-    padding: 1rem;
+    padding: .25em;
 }
 
 footer div {
@@ -49,7 +49,7 @@ footer div {
 }
 
 .carousel-item {
-    height: 25rem;
+    height: 25em;
 }
 
 .vert .carousel-item-next.carousel-item-left,
