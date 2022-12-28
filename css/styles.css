@@ -1,7 +1,8 @@
 body {
-    background-image: linear-gradient(to bottom, olivedrab, orange);
+    background-image: linear-gradient(to bottom, olivedrab, #53682A);
     font-family: "open sans", sans-serif;
-    font-size: larger;
+    font-size: large;
+    font-weight: 700;
 
 }
 
@@ -14,32 +15,37 @@ h3 {
 }
 
 footer {
-    background-color: darkslategrey;
+    background-color: #343131;
 }
 
 .navbar {
-    background-color: black
+    background-color: #343131;
 }
 
 .jumbotron {
     margin: 0;
     padding: 1em;
-    background-image: linear-gradient(to right, olivedrab, orange, olivedrab);
+    background-image: linear-gradient(to right, olivedrab, #53682A);
     color: black;
 }
 
 .row-content {
-    border: .75em ridge;
+    border: .60em ridge rgb(74, 78, 78);
+    padding: .25em;
+ 
 }
 
+
 .tab-content {
+    background-color: #343131;
     border: .25em solid #DDD;
     border-top: none;
     padding: .25em;
+    color: aliceblue;
 }
 
 .btn {
- margin: 3px;
+ margin: 2px;
 }
 
 footer div {
@@ -47,17 +53,13 @@ footer div {
     align-content: center;
 }
 
-.carousel {
-    margin-top: 1em;
-    margin-bottom: 1em;
-}
 
 #about {
-    margin-top: 1em;
+    margin-top: .5em;
 }
 
-.carousel-item {
-    height: 20em;
+.carousel-item {   
+    height: 17em;
 }
 
 .vert .carousel-item-next.carousel-item-left,
@@ -69,11 +71,11 @@ footer div {
 .vert .carousel-item-next,
 .vert .active.carousel-item-right {
     -webkit-transform: translate3d(0, 100%, 0);
-    transform: translate3d(0, 100% 0);
+    transform: translate3d(0, 100%, 0);
 }
 
 .vert .carousel-item-prev,
 .vert .active.carousel-item-left {
-    -webkit-transform: translate3d(0, -100%, 0);
-    transform: translate3d(0, -100%, 0);
+    -webkit-transform: translate3d(0, -100%, 5);
+    transform: translate3d(0, -100%, 5);
 }
