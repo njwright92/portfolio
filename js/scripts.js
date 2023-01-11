@@ -1,8 +1,7 @@
 const game = document.querySelector('#about');
 game.addEventListener('click', getSport);
 
-const favoriteSport = ["baseball", "football", "skateboarding", "snowboarding"];
-favoriteSport.sort();
+const favoriteSport = ["baseball", "football", "skateboarding","snowboarding"];
 
 function getSport() {
     let guess;
@@ -10,23 +9,25 @@ function getSport() {
     let correct = false;
     console.log();
     do {
-        guess = prompt(`what is my favorite sport? Your options are \n\n ${favoriteSport.join(", ")}`);
+        guess = prompt(`which one is my favorite sport?\n\n${favoriteSport.join(", ")}`);
         numTries += 1;
         if (guess === null) {
             alert("game aborted");
             return
         } correct = checkGuess(guess.toLowerCase().trim());
     } while (!correct) {
-        const img = document.createElement("img");
-        img.src = "images/ripper-snowboarder.gif";
-        const gif_game = document.getElementById("gif_game");
-        gif_game.appendChild(img);
-        img.style.width = '20rem';
         alert(`Winner! Snowboardings my favorite, it only took you ${numTries} tries!`);
+        return showGif();
     }
-}
+};
 
-
+function showGif() {
+    const img = document.createElement("img");
+    img.src = "images/ripper-snowboarder.gif";
+    const gif_game = document.getElementById("gif_game");
+    gif_game.appendChild(img);
+    img.style.width = '20rem';
+};
 
 function checkGuess(guess) {
     let correct = false;
