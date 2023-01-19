@@ -7,9 +7,9 @@ import {
     Nav,
     NavItem,
 } from "reactstrap";
+import Dog from '../assets/img/dog.jpeg';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
-import Dog from '../assets/img/dog.jpeg';
 
 const Header = () => {
     const [menuOpen, setMenuOpen] = useState(false);
