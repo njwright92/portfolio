@@ -39,6 +39,11 @@ const Header = () => {
                             <i className='fa fa-info fa-lg' /> Interests
                         </NavLink>
                     </NavItem>
+                    <NavItem>
+                        <NavLink className='nav-link' to='/About'>
+                            <i className='fa fa-info fa-lg' /> About
+                        </NavLink>
+                    </NavItem>
                 </Nav>
             </Collapse>
         </Navbar>

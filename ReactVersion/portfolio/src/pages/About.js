@@ -1,4 +1,4 @@
-import Carousels2 from "../features/carousel2";
+import Carousels2 from "../features/carousels2";
 import { Container } from "reactstrap";
 import SubHeader from "../components/SubHeader";
 
