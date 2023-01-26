@@ -12,7 +12,7 @@ function App() {
   return (
     <div className="App">
       <Header />
-      <Container className="App-header">
+      <Container>
         <img src={nys} className="App-logo img-fluid img-thumbnail" alt="logo" />
       </Container>
       <Routes>

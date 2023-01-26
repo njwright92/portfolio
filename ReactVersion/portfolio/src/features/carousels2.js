@@ -5,10 +5,9 @@ import {
     CarouselControl,
     CarouselIndicators,
 } from 'reactstrap';
-
 import { FoodInterests } from '../shared/FoodInterests';
 
-const food = FoodInterests;
+const items = FoodInterests;
 
 function Carousels2(args) {
     const [activeIndex, setActiveIndex] = useState(0);
@@ -16,13 +15,13 @@ function Carousels2(args) {
 
     const next = () => {
         if (animating) return;
-        const nextIndex = activeIndex === food.length - 1 ? 0 : activeIndex + 1;
+        const nextIndex = activeIndex === items.length - 1 ? 0 : activeIndex + 1;
         setActiveIndex(nextIndex);
     };
 
     const previous = () => {
         if (animating) return;
-        const nextIndex = activeIndex === 0 ? food.length - 1 : activeIndex - 1;
+        const nextIndex = activeIndex === 0 ? items.length - 1 : activeIndex - 1;
         setActiveIndex(nextIndex);
     };
 
@@ -31,7 +30,7 @@ function Carousels2(args) {
         setActiveIndex(newIndex);
     };
 
-    const slides = food.map((item) => {
+    const slides = items.map((item) => {
         return (
             <CarouselItem
                 onExiting={() => setAnimating(true)}
@@ -51,7 +50,7 @@ function Carousels2(args) {
             {...args}
         >
             <CarouselIndicators
-                food={food}
+                items={items}
                 activeIndex={activeIndex}
                 onClickHandler={goToIndex}
             />
