@@ -1,5 +1,5 @@
 import { Col, Container, Row } from "reactstrap";
-import SubHeader from "./components/SubHeader";
+import SubHeader from "../components/SubHeader";
 
 const HomePage = () => {
     return (

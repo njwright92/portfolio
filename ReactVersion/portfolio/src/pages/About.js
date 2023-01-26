@@ -1,10 +1,14 @@
-import Carousels2 from "../features/carousels";
-import React from 'react'
+import Carousels2 from "../features/carousel2";
+import { Container } from "reactstrap";
+import SubHeader from "../components/SubHeader";
 
 const About = () => {
   return (
-    <Carousels2 />
-  )
-}
+    <Container>
+      <SubHeader current='About' />
+      <Carousels2 />
+    </Container>
+  );
+};
 
 export default About;

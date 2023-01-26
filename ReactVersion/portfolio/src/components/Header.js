@@ -7,8 +7,8 @@ import {
     Nav,
     NavItem,
 } from "reactstrap";
+import { NavLink } from "react-router-dom";
 import Dog from '../img/dog.jpeg';
-import 'bootstrap/dist/css/bootstrap.min.css';
 
 
 const Header = () => {
@@ -30,15 +30,19 @@ const Header = () => {
             <Collapse isOpen={menuOpen} navbar>
                 <Nav className='mx-auto' navbar>
                     <NavItem>
-
-                        <i className='fa fa-home fa-lg' /> Home
-
+                        <NavLink className='nav-link' to='/'>
+                            <i className='fa fa-home fa-lg' /> Home
+                        </NavLink>
                     </NavItem>
-
+                    <NavItem>
+                        <NavLink className='nav-link' to='/Interests'>
+                            <i className='fa fa-info fa-lg' /> Interests
+                        </NavLink>
+                    </NavItem>
                 </Nav>
             </Collapse>
         </Navbar>
     )
 }
 
-export default Header
+export default Header;

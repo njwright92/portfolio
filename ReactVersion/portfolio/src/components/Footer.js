@@ -1,5 +1,4 @@
 import { Container, Row, Col } from "reactstrap";
-import 'bootstrap/dist/css/bootstrap.min.css';
 
 const Footer = () => {
     return (
@@ -11,25 +10,25 @@ const Footer = () => {
                         <a
                             className='btn btn-social-icon btn-instagram'
                             href='http://instagram.com/'
-                        >instagram
+                        >
                             <i className='fa fa-instagram' />
                         </a>{' '}
                         <a
                             className='btn btn-social-icon btn-facebook'
                             href='http://www.facebook.com/'
-                        >facebook
+                        >
                             <i className='fa fa-facebook' />
                         </a>{' '}
                         <a
                             className='btn btn-social-icon btn-twitter'
                             href='http://twitter.com/'
-                        >twitter
+                        >
                             <i className='fa fa-twitter' />
                         </a>{' '}
                         <a
                             className='btn btn-social-icon btn-google'
                             href='http://youtube.com/'
-                        >youtube
+                        >
                             <i className='fa fa-youtube' />
                         </a>
                     </Col>

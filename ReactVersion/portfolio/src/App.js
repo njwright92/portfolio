@@ -1,31 +1,24 @@
 import nys from './img/nys.gif'
 import React from 'react';
+import { Routes, Route } from 'react-router-dom';
 import Header from './components/Header';
 import Footer from './components/Footer';
+import HomePage from './pages/HomePage';
 import './App.css';
 import Interests from './pages/Interests';
-import { Col, Container, Row } from 'reactstrap';
+import { Container } from 'reactstrap';
 
 function App() {
   return (
     <div className="App">
       <Header />
-      <Container>
-        <Row>
-          <Col sm="3" md="5">
-            <header className="App-header">
-              <img src={nys} className="App-logo img-fluid img-thumbnail" alt="logo" />
-              <p><br /><br />
-                Nate Dogg
-              </p>
-
-            </header>
-          </Col>
-          <Col md='7'>
-            <Interests />
-          </Col>
-        </Row>
+      <Container className="App-header">
+        <img src={nys} className="App-logo img-fluid img-thumbnail" alt="logo" />
       </Container>
+      <Routes>
+        <Route path='/' element={<HomePage />} />
+        <Route path='Interests' element={<Interests />} />
+      </Routes>
       <Footer />
     </div>
   );
