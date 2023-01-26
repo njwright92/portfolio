@@ -7,7 +7,7 @@ import {
     Nav,
     NavItem,
 } from "reactstrap";
-import Dog from '../assets/img/dog.jpeg';
+import Dog from '../img/dog.jpeg';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 

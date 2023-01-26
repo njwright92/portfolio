@@ -1,4 +1,4 @@
-import nys from './images/nys.gif'
+import nys from './img/nys.gif'
 import React from 'react';
 import Header from './components/Header';
 import Footer from './components/Footer';
