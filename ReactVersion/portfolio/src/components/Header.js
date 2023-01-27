@@ -15,7 +15,7 @@ const Header = () => {
     const [menuOpen, setMenuOpen] = useState(false);
 
     return (
-        <Navbar className="my-2" color='success' fixed='top' dark expand='md'>
+        <Navbar className="my-2" color='dark' fixed='top' dark expand='md'>
             <NavbarBrand href="/">
                 <img className="img-fluid"
                     alt="dog"
@@ -25,7 +25,6 @@ const Header = () => {
                     }}
                 />
             </NavbarBrand>
-
             <NavbarToggler onClick={() => setMenuOpen(!menuOpen)} />
             <Collapse isOpen={menuOpen} navbar>
                 <Nav className='mx-auto' navbar>
@@ -36,12 +35,12 @@ const Header = () => {
                     </NavItem>
                     <NavItem>
                         <NavLink className='nav-link' to='/Interests'>
-                            <i className='fa fa-info fa-lg' /> Interests
+                            <i className='fa fa-snowflake-o fa-lg' /> Interests
                         </NavLink>
                     </NavItem>
                     <NavItem>
                         <NavLink className='nav-link' to='/About'>
-                            <i className='fa fa-info fa-lg' /> About
+                            <i className='fa fa-briefcase fa-lg' /> About
                         </NavLink>
                     </NavItem>
                 </Nav>
