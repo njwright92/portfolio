@@ -7,18 +7,20 @@ import {
 
 function MyWork() {
     return (
-        <Nav pills>
+        <Nav pills className='bg-dark text-success'>
             <NavItem>
                 <NavLink
+                    className="btn btn-success btn-lg"
                     active
                     href="https://slapshot16.com"
                 >
-                    SlapShot16.com
+                    SlapShot16
                 </NavLink>
                 <p>A Website for a hockey themed food truck!</p>
             </NavItem>
             <NavItem>
-                <NavLink href="https://njwright92.github.io/proTracker/"
+                <NavLink className="btn btn-success btn-lg"
+                    href="https://njwright92.github.io/proTracker/"
                 >
                     ProTracker.io
                 </NavLink>
