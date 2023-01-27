@@ -4,10 +4,12 @@ import SubHeader from "../components/SubHeader";
 
 const About = () => {
   return (
-    <Container>
-      <SubHeader current='About' />
-      <Carousels2 />
-    </Container>
+    <div style={{ backgroundColor: 'olivedrab' }}>
+      <Container>
+        <SubHeader current='About' />
+        <Carousels2 />
+      </Container>
+    </div>
   );
 };
 

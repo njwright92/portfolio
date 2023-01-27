@@ -17,7 +17,7 @@ function App() {
         <Route path='interests' element={<Interests />} />
         <Route path='about' element={<About />} />
       </Routes>
-      <Footer />
+      <Footer style={{ backgroundColor: 'white' }} />
     </div>
   );
 }

@@ -4,14 +4,16 @@ import SubHeader from "../components/SubHeader"
 
 const Interests = () => {
   return (
-    <Container>
-      <SubHeader current='interests' />
-      <Row>
-        <Col>
-          <Carousels />
-        </Col>
-      </Row>
-    </Container >
+    <div style={{ backgroundColor: 'olivedrab' }}>
+      <Container>
+        <SubHeader current='interests' />
+        <Row>
+          <Col>
+            <Carousels />
+          </Col>
+        </Row>
+      </Container >
+    </div>
   );
 };
 
