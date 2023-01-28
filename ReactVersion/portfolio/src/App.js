@@ -11,13 +11,15 @@ import About from './pages/About';
 function App() {
   return (
     <div className="App">
-      <Header />
-      <Routes>
-        <Route path='/' element={<HomePage />} />
-        <Route path='interests' element={<Interests />} />
-        <Route path='about' element={<About />} />
-      </Routes>
-      <Footer style={{ backgroundColor: 'white' }} />
+      <div className='anim_gradient'>
+        <Header />
+        <Routes>
+          <Route path='/' element={<HomePage />} />
+          <Route path='interests' element={<Interests />} />
+          <Route path='about' element={<About />} />
+        </Routes>
+        <Footer style={{ backgroundColor: 'white' }} />
+      </div>
     </div>
   );
 }

@@ -5,20 +5,20 @@ import MyWork from "../features/Tabs";
 
 const HomePage = () => {
     return (
-        <div style={{ backgroundColor: 'olivedrab' }}>
-            <Container>
-                <SubHeader current='Home' />
-                <Row>
-                    <Col>
-                        <img src={nys} className="App-logo" alt="logo" />
-                    </Col>
-                    <Col className="mt-4 text-center">
-                        <h1>My Work</h1>
-                        <MyWork />
-                    </Col>
-                </Row>
-            </Container>
-        </div>
+        <Container>
+            <SubHeader current='Home' />
+            <Row>
+                <Col>
+                    <img src={nys} className="App-logo" alt="logo" />
+                </Col>
+            </Row>
+            <Row>
+                <Col className="mt-4 text-center">
+                    <h1>My Work</h1>
+                    <MyWork />
+                </Col>
+            </Row>
+        </Container>
     );
 
 };
