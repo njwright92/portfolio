@@ -6,7 +6,9 @@ import {
 
 export default function Footer() {
     return (
-        <MDBFooter className='bg-dark text-center text-white'>
+        <MDBFooter className='text-center text-white'
+            style={{ backgroundColor: '#343131' }}
+        >
             <MDBContainer>
                 <section>
                     <h4 className="text-white"><strong>Contact</strong></h4>

@@ -37,7 +37,7 @@ function Carousels2(args) {
                 onExited={() => setAnimating(false)}
                 key={item.src}
             >
-                <img src={item.src} alt={item.altText} />
+                <img src={item.src} alt={item.altText} className='carouselItem' />
             </CarouselItem>
         );
     });

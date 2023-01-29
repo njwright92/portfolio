@@ -1,7 +1,7 @@
 .anim_gradient {
-  background: linear-gradient(132deg, olivedrab 0%, olive 100%);
+  background: linear-gradient(270deg, olivedrab 30%, #53682A 70%);
   background-Size: "400% 400%";
-  animation: "gradient 5s ease infinite";
+  animation: "gradient 25s ease infinite";
 }
 
 @keyframes gradient {
@@ -18,7 +18,23 @@
   }
 }
 
-;
+.carouselItem {
+  height: 30rem;
+}
+
+.row-content {
+  border: .70em ridge rgb(74, 78, 78);
+  padding: .25em;
+
+}
+
+.tabs {
+  background-color: #343131;
+  border: .25em solid #DDD;
+  border-top: none;
+  padding: .25em;
+  color: aliceblue;
+}
 
 .App {
   text-align: center;

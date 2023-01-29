@@ -15,7 +15,9 @@ const Header = () => {
     const [menuOpen, setMenuOpen] = useState(false);
 
     return (
-        <Navbar className="my-2" color='dark' fixed='top' dark expand='md'>
+        <Navbar className="my-2" fixed='top' dark expand='md'
+            style={{ backgroundColor: '#343131' }}
+        >
             <NavbarBrand href="/">
                 <img className="img-fluid"
                     alt="dog"

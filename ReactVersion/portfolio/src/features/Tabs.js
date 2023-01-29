@@ -19,9 +19,11 @@ function MyWork() {
     return (
         <div style={{
             display: 'block', width: 700, padding: 30
-        }}>
-
-            <Nav tabs className='bg-dark text-white btn btn-success btn-lg'>
+        }}
+            className="tabs"
+        >
+            <h2>My Work</h2>
+            <Nav tabs>
                 <NavItem>
                     <NavLink
                         className={classnames({

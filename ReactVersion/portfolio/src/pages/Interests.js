@@ -7,7 +7,7 @@ const Interests = () => {
     <Container>
       <SubHeader current='interests' />
       <Row>
-        <Col>
+        <Col className="col-6 mx-auto img-fluid">
           <Carousels />
         </Col>
       </Row>

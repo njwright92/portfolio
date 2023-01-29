@@ -8,15 +8,15 @@ const HomePage = () => {
         <Container>
             <SubHeader current='Home' />
             <Row>
-                <Col>
+                <Col className="mx-auto row-content">
                     <img src={nys} className="App-logo" alt="logo" />
+                </Col>
+                <Col className="mt-4 mx-auto">
+                    <MyWork />
                 </Col>
             </Row>
             <Row>
-                <Col className="mt-4 text-center">
-                    <h1>My Work</h1>
-                    <MyWork />
-                </Col>
+
             </Row>
         </Container>
     );
