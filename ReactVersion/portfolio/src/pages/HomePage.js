@@ -10,8 +10,8 @@ const HomePage = () => {
         <Container>
             <SubHeader current='Home' />
             <Row className="align-items-center">
-                <Col className="mx-auto mb-2 mt-2">
-                    <Button id='gif_game' className="btn btn-lg btn-danger">Show GIF</Button>
+                <Col className="mx-auto mb-2 mt-2" id='gif'>
+                    <Button type='submit' color='danger' className="btn btn-lg">Show GIF</Button>
                 </Col>
             </Row>
             <Row className="align-items-center">

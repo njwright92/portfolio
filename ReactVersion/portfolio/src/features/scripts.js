@@ -1,4 +1,4 @@
-const game = document.querySelector('#gif_game');
+const game = document.querySelector('#gif');
 game.addEventListener('click', getSport);
 
 const favoriteSport = ["baseball", "football", "skateboarding", "snowboarding"];
@@ -23,7 +23,7 @@ function getSport() {
 
 function showGif() {
     const img = document.createElement("img");
-    img.src = "images/ripper-snowboarder.gif";
+    img.src = "./img/ripper-snowboarder.gif";
     const gif_game = document.getElementById("gif_game");
     gif_game.appendChild(img);
     img.style.width = '20rem';
