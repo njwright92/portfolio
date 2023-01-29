@@ -17,7 +17,7 @@ const HomePage = () => {
                 </Col>
             </Row>
             <Row>
-                <Col className="mx-auto mt-2 mb-2 row-content">
+                <Col className="col-4 mx-auto mt-2 mb-2 row-content">
                     <SiteRequest />
                 </Col>
             </Row>

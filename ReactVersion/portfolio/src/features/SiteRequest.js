@@ -16,25 +16,24 @@ const SiteRequest = () => {
                 <Col>
                     <Formik>
                         <Form>
-                            <FormGroup row>
+                            <FormGroup>
                                 <Label htmlFor='email' md='2'>
-                                    <h4>Email</h4>
+                                    <h4>Email </h4>
                                 </Label>
-                                <Col md='10'>
-                                    <Field
-                                        name='email'
-                                        placeholder='Email'
-                                        type='email'
-                                        className='form-control'
-                                    />
-                                    <ErrorMessage name='email'>
-                                        {(msg) => <p className='text-danger'>{msg}</p>}
-                                    </ErrorMessage>
-                                </Col>
+                                <Field
+                                    name='email'
+                                    placeholder='Email'
+                                    type='email'
+                                    className='form-control'
+                                />
+                                <ErrorMessage name='email'>
+                                    {(msg) => <p className='text-danger'>{msg}</p>}
+                                </ErrorMessage>
+
                             </FormGroup>
                             <FormGroup>
                                 <Label htmlFor="author" md='2'>
-                                    <h4>Your Name</h4>
+                                    <h4>Name</h4>
                                 </Label>
                                 <Field
                                     name='author'
