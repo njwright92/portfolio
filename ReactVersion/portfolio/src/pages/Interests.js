@@ -11,11 +11,14 @@ const Interests = () => {
           <Carousels />
         </Col>
         <Col className="col-6 mx-auto row-content">
-          <><h2>Interests</h2>
-            <h5>Snowboarding</h5>
-            <h5>I'm currently a Chef/Bartender, but I'm studying to transition into tech.</h5>
-            <h5>Traveling is great, I love new experiences, and want to see more cultures.</h5>
-            <h5>Also love money, and women.</h5>
+          <>
+            <h1>Interests</h1>
+            <ul>
+              <li><h5> If I could replay an experience, I would go back to Bear Mountain. when I rode a chair lift
+                with my favorite pro snowboarder. 'Chris Bradshaw' "I do it all for the kids man".</h5></li>
+              <li><h5> One goal I want to accomplish is to "just live" comfortably, and travel the
+                World.</h5></li>
+            </ul>
           </>
         </Col>
       </Row>

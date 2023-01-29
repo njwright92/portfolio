@@ -33,7 +33,9 @@ const SiteRequest = () => {
                                 </Col>
                             </FormGroup>
                             <FormGroup>
-                                <Label htmlFor="author"><h4>Your Name</h4></Label>
+                                <Label htmlFor="author" md='2'>
+                                    <h4>Your Name</h4>
+                                </Label>
                                 <Field
                                     name='author'
                                     placeholder='Your Name'
@@ -49,7 +51,7 @@ const SiteRequest = () => {
                                     as='textarea'
                                     rows='12'
                                     className='form-control'
-                                    placeholder="Enter details about the site you are need developed here"
+                                    placeholder="Enter details about the site you want developed here"
                                 />
                             </FormGroup>
                             <Button type='submit' color='primary' className="btn btn-lg">
