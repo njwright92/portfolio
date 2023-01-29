@@ -6,7 +6,7 @@ const About = () => {
   return (
     <Container>
       <SubHeader current='About' />
-      <Row>
+      <Row className="align-items-center">
         <Col className="mx-auto col-6 img-fluid">
           <Carousels2 />
         </Col>

@@ -1,7 +1,7 @@
-const game = document.querySelector('#about');
+const game = document.querySelector('#gif_game');
 game.addEventListener('click', getSport);
 
-const favoriteSport = ["baseball", "football", "skateboarding","snowboarding"];
+const favoriteSport = ["baseball", "football", "skateboarding", "snowboarding"];
 
 function getSport() {
     let guess;
@@ -45,6 +45,4 @@ function checkGuess(guess) {
     } return correct;
 }
 
-$(function () {
-    $(".carousel").carousel({ interval: 4000 });
-});
+export default scripts;

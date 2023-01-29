@@ -18,6 +18,10 @@
   }
 }
 
+#gif_game {
+  size: 20rem;
+}
+
 .carouselItem {
   height: 30rem;
 }
