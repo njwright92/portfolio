@@ -1,4 +1,6 @@
-# Getting Started with Create React App and Redux
+# My portfolio a simple site for practice with Nucamps teachings.
+youll find some info about me and links to other sites i've developed.
+also I've added a formm for people to request sites for mw to build.
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app), using the [Redux](https://redux.js.org/) and [Redux Toolkit](https://redux-toolkit.js.org/) template.
 

@@ -5,7 +5,7 @@ import SubHeader from "../components/SubHeader";
 const About = () => {
   return (
     <Container>
-      <SubHeader current='About' />
+      <SubHeader current='about' />
       <Row className="align-items-center">
         <Col className="mx-auto col-6 img-fluid">
           <Carousels2 />
