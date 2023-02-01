@@ -1,68 +1,111 @@
-import { useState } from "react";
-import { useDispatch } from "react-redux";
-import { Col, Row, Container } from "reactstrap";
+import { Button, Label, Col, FormGroup } from 'reactstrap';
 import { Formik, Field, Form, ErrorMessage } from 'formik';
-import {
-    Button,
-    FormGroup,
-    Label
-} from "reactstrap";
+import { validateContactForm } from '../utils/validateContactForm';
 
 const SiteRequest = () => {
+    const handleSubmit = (values, { resetForm }) => {
+        console.log('form values:', values);
+        console.log('in JSON format:', JSON.stringify(values));
+        resetForm();
+    };
+
     return (
-        <Container>
-            <h3>Submit Site Request</h3>
-            <Row>
-                <Col>
-                    <Formik>
-                        <Form>
-                            <FormGroup>
-                                <Label htmlFor='email' md='2'>
-                                    <h4>Email </h4>
-                                </Label>
-                                <Field
-                                    name='email'
-                                    placeholder='Email'
-                                    type='email'
-                                    className='form-control'
-                                />
-                                <ErrorMessage name='email'>
-                                    {(msg) => <p className='text-danger'>{msg}</p>}
-                                </ErrorMessage>
+        <Formik
+            initialValues={{
+                firstName: '',
+                lastName: '',
+                phoneNum: '',
+                email: '',
+                agree: false,
+                contactType: 'By Phone',
+                feedback: '',
+            }}
+            onSubmit={handleSubmit}
+            validate={validateContactForm}
+        >
+            <Form>
+                <h1><strong>Site Request</strong></h1>
+                <FormGroup row>
+                    <Label htmlFor='firstName' md='2'>
+                    </Label><strong>First Name</strong>
+                    <Col>
+                        <Field
+                            name='firstName'
+                            placeholder='First Name'
+                            className='form-control'
+                        />
+                        <ErrorMessage name='firstName'>
+                            {(msg) => <p className='text-danger'>{msg}</p>}
+                        </ErrorMessage>
+                    </Col>
+                </FormGroup>
 
-                            </FormGroup>
-                            <FormGroup>
-                                <Label htmlFor="author" md='2'>
-                                    <h4>Name</h4>
-                                </Label>
-                                <Field
-                                    name='author'
-                                    placeholder='Your Name'
-                                    className='form-control' />
-                                <ErrorMessage name='author'>
-                                    {(msg) => <p className='text-danger'>{msg}</p>}
-                                </ErrorMessage>
-                            </FormGroup>
-                            <FormGroup>
-                                <Label htmlFor="commentText"><h4>Site Request</h4></Label>
-                                <Field
-                                    name='commentText'
-                                    as='textarea'
-                                    rows='12'
-                                    className='form-control'
-                                    placeholder="Enter details about the site you want developed here"
-                                />
-                            </FormGroup>
-                            <Button type='submit' color='primary' className="btn btn-lg">
-                                Submit
-                            </Button>
-                        </Form>
-                    </Formik>
-                </Col>
-            </Row>
+                <FormGroup row>
+                    <Label htmlFor='lastName' md='2'>
+                    </Label><strong>Last Name</strong>
+                    <Col>
+                        <Field
+                            name='lastName'
+                            placeholder='Last Name'
+                            className='form-control'
+                        />
+                        <ErrorMessage name='lastName'>
+                            {(msg) => <p className='text-danger'>{msg}</p>}
+                        </ErrorMessage>
+                    </Col>
+                </FormGroup>
+                <FormGroup row>
+                    <Label htmlFor='phoneNum' md='2'>
+                    </Label> <strong>Phone</strong>
+                    <Col>
+                        <Field
+                            name='phoneNum'
+                            placeholder='Phone'
+                            className='form-control'
+                        />
+                        <ErrorMessage name='phoneNum'>
+                            {(msg) => <p className='text-danger'>{msg}</p>}
+                        </ErrorMessage>
+                    </Col>
+                </FormGroup>
+                <FormGroup row>
+                    <Label htmlFor='email' md='2'>
+                    </Label><strong>Email</strong>
+                    <Col>
+                        <Field
+                            name='email'
+                            placeholder='Email'
+                            type='email'
+                            className='form-control'
+                        />
+                        <ErrorMessage name='email'>
+                            {(msg) => <p className='text-danger'>{msg}</p>}
+                        </ErrorMessage>
+                    </Col>
+                </FormGroup>
+                <FormGroup row>
+                    <Label htmlFor='feedback' md='2'>
+                    </Label><strong>Your Site Request</strong>
+                    <Col>
+                        <Field
+                            name='feedback'
+                            as='textarea'
+                            rows='12'
+                            className='form-control'
+                            placeholder='enter details for the app or site you want created here'
+                        />
+                    </Col>
+                </FormGroup>
+                <FormGroup row>
+                    <Col md={{ size: 10, offset: 1 }}>
+                        <Button type='submit' color='primary'>
+                            Send Request
+                        </Button>
+                    </Col>
+                </FormGroup>
+            </Form>
+        </Formik>
+    );
+};
 
-        </Container>
-    )
-}
-
-export default SiteRequest
+export default SiteRequest;
