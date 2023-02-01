@@ -24,7 +24,7 @@ const HomePage = () => {
                 </Col>
             </Row>
             <Row className="align-items-center">
-                <Col className="col-4 mx-auto mt-2 mb-2 row-content">
+                <Col className="col-7 col-md-6 col-lg-4 mx-auto mt-2 mb-2 row-content">
                     <SiteRequest />
                 </Col>
             </Row>
