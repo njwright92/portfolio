@@ -11,7 +11,7 @@ const HomePage = () => {
         <Container>
             <SubHeader current='Home' />
             <Row className="align-items-center">
-                <Col className="mx-auto mb-2 mt-2">
+                <Col className="mx-auto mb-2 mt-2" id="gif_game">
                     <Button type='submit' color='danger' className="btn btn-lg" onClick={gifGame}>Show GIF</Button>
                 </Col>
             </Row>

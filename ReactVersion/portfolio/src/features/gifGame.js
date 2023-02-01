@@ -14,13 +14,13 @@ function gifGame() {
         } correct = checkGuess(guess.toLowerCase().trim());
     } while (!correct) {
         alert(`Winner! Snowboardings my favorite, it only took you ${numTries} tries!`);
-        <img className="img-fluid img-thumbnail App-logo"
-            alt="ripper"
-            src={require('../img/ripper-snowboarder.gif')}
-            style={{
-                height: 100
-            }}
-        />
+        const img = document.createElement("img");
+        <>
+            <img src={require("../img/ripper-snowboarder.gif")} alt='ripper' />
+        </>
+        const gif_game = document.getElementById("gif_game");
+        gif_game.appendChild(img);
+
     }
 }
 
