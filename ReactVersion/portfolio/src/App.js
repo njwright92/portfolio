@@ -11,16 +11,14 @@ import AboutPage from './pages/AboutPage';
 
 function App() {
   return (
-    <div className="App">
-      <div className='anim_gradient'>
-        <Header />
-        <Routes>
-          <Route path='/' element={<HomePage />} />
-          <Route path='interests' element={<InterestsPage />} />
-          <Route path='about' element={<AboutPage />} />
-        </Routes>
-        <Footer />
-      </div>
+    <div className="App anim_gradient">
+      <Header />
+      <Routes>
+        <Route path='/' element={<HomePage />} />
+        <Route path='interests' element={<InterestsPage />} />
+        <Route path='about' element={<AboutPage />} />
+      </Routes>
+      <Footer />
     </div>
   );
 }
