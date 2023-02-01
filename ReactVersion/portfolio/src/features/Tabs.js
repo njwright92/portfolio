@@ -47,7 +47,7 @@ function MyWork() {
                 <TabPane tabId="1">
                     <Row>
                         <Col sm="12">
-                            <h5>Website for a hockey themed food truck!</h5>
+                            <h5>My first site: a resposive bootstrap project site for a hockey themed food truck!</h5>
                             <a href='https://slapshot16.com/' className='btn btn-success btn-lg'>Slapshot16.com </a>
                         </Col>
                     </Row>
