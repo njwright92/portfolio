@@ -6,13 +6,13 @@ const About = () => {
   return (
     <Container>
       <SubHeader current='about' />
+      <h1><strong>About Me</strong></h1>
       <Row className="align-items-center">
-        <Col className="mx-auto col-6 img-fluid">
+        <Col className="col-7 col-md-6 col-lg-5 mx-auto img-fluid">
           <Carousels2 />
         </Col>
-        <Col className="mx-auto col-6 row-content">
+        <Col className="col-5 col-md-6 col-lg-7 mx-auto row-content">
           <>
-            <h1>About</h1>
             <ul>
               <h5>Snowboarding</h5>
               <li><h5>I'm currently a Chef/Bartender, but I'm studying to transition into tech.</h5></li>

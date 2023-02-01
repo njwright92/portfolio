@@ -4,8 +4,8 @@ import Header from './components/Header';
 import Footer from './components/Footer';
 import HomePage from './pages/HomePage';
 import './App.css';
-import Interests from './pages/Interests';
-import About from './pages/About';
+import InterestsPage from './pages/InterestsPage';
+import AboutPage from './pages/AboutPage';
 
 
 
@@ -16,8 +16,8 @@ function App() {
         <Header />
         <Routes>
           <Route path='/' element={<HomePage />} />
-          <Route path='interests' element={<Interests />} />
-          <Route path='about' element={<About />} />
+          <Route path='interests' element={<InterestsPage />} />
+          <Route path='about' element={<AboutPage />} />
         </Routes>
         <Footer />
       </div>

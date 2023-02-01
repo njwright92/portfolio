@@ -17,11 +17,7 @@ function MyWork() {
     }
 
     return (
-        <div style={{
-            display: 'block', width: 700, padding: 30
-        }}
-            className="tabs"
-        >
+        <div className="tabs">
             <h2>My Work</h2>
             <Nav tabs>
                 <NavItem>

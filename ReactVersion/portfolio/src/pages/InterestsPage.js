@@ -5,14 +5,15 @@ import SubHeader from "../components/SubHeader"
 const Interests = () => {
   return (
     <Container>
-      <SubHeader current='interests' />
+      <SubHeader current='Interests' />
+      <h1><strong>Interests</strong></h1>
       <Row className="align-items-center">
-        <Col className="col-6 mx-auto img-fluid">
+        <Col className="col-7 col-md-6 col-lg-5 mx-auto img-fluid">
           <Carousels />
         </Col>
-        <Col className="col-6 mx-auto row-content">
+
+        <Col className="col-5 col-md-6 col-lg-7 mx-auto row-content">
           <>
-            <h1>Interests</h1>
             <ul>
               <li><h5> If I could replay an experience, I would go back to Bear Mountain. when I rode a chair lift
                 with my favorite pro snowboarder. 'Chris Bradshaw' "I do it all for the kids man".</h5></li>

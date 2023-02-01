@@ -4,7 +4,20 @@
   animation: "gradient 25s ease infinite";
 }
 
-@keyframes gradient {
+
+body {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-family: 'Lobster', cursive;
+}
+
+@keyframes linear-gradient {
   0% {
     background-position: 0% 50%;
   }
@@ -23,14 +36,12 @@
 }
 
 .carouselItem {
-  height: 30rem;
+  height: 17em;
 }
 
 .row-content {
   border: .70em ridge rgb(74, 78, 78);
-  padding: .5em;
-  margin: 1em;
-
+  padding: .4em;
 }
 
 .tabs {
