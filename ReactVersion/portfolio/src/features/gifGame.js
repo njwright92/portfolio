@@ -4,7 +4,6 @@ function gifGame() {
     let guess;
     let numTries = 0;
     let correct = false;
-    console.log();
     do {
         guess = prompt(`which one is my favorite sport?\n\n${favoriteSport.join(", ")}`);
         numTries += 1;
@@ -15,14 +14,12 @@ function gifGame() {
     } while (!correct) {
         alert(`Winner! Snowboardings my favorite, it only took you ${numTries} tries!`);
         const img = document.createElement("img");
-        <>
-            <img src={require("../img/ripper-snowboarder.gif")} alt='ripper' />
-        </>
+        img.src = require("../img/ripper-snowboarder.gif");
         const gif_game = document.getElementById("gif_game");
         gif_game.appendChild(img);
-
-    }
+    } console.log(`${numTries}`);
 }
+
 
 function checkGuess(guess) {
     let correct = false;

@@ -21,6 +21,9 @@ const About = () => {
             </ul>
           </>
         </Col>
+        <Col>
+          <p>"I got love"<audio class="mt-1" src={require("../mp3s/i-got-love.mp3")} controls loop></audio></p>
+        </Col>
       </Row>
     </Container>
   );
