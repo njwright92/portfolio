@@ -28,7 +28,8 @@
 
 .row-content {
   border: .70em ridge rgb(74, 78, 78);
-  padding: .25em;
+  padding: .5em;
+  margin: 1em;
 
 }
 

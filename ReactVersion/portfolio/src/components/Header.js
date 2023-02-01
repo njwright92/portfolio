@@ -37,7 +37,7 @@ const Header = () => {
                     </NavItem>
                     <NavItem>
                         <NavLink className='nav-link' to='/Interests'>
-                            <i className='fa fa-snowflake-o fa-lg' /> Interests
+                            <i className='fa fa-snowflake-o fa-lg fa-spin' /> Interests
                         </NavLink>
                     </NavItem>
                     <NavItem>
