@@ -4,14 +4,15 @@ import SubHeader from "../components/SubHeader";
 import MyWork from "../features/Tabs";
 import SiteRequest from "../features/SiteRequest";
 import { Button } from 'reactstrap';
+import gifGame from "../features/gifGame";
 
 const HomePage = () => {
     return (
         <Container>
             <SubHeader current='Home' />
             <Row className="align-items-center">
-                <Col className="mx-auto mb-2 mt-2" id='gif'>
-                    <Button type='submit' color='danger' className="btn btn-lg">Show GIF</Button>
+                <Col className="mx-auto mb-2 mt-2">
+                    <Button type='submit' color='danger' className="btn btn-lg" onClick={gifGame}>Show GIF</Button>
                 </Col>
             </Row>
             <Row className="align-items-center">

@@ -47,7 +47,7 @@ function MyWork() {
                 <TabPane tabId="1">
                     <Row>
                         <Col sm="12">
-                            <h5>My first site: a resposive bootstrap project site for a hockey themed food truck!</h5>
+                            <p>My first site: a resposive bootstrap project site for a hockey themed food truck!</p>
                             <a href='https://slapshot16.com/' className='btn btn-success btn-lg'>Slapshot16.com </a>
                         </Col>
                     </Row>
@@ -55,8 +55,8 @@ function MyWork() {
                 <TabPane tabId="2">
                     <Row>
                         <Col sm="12">
-                            <h5>A website/app project for a friend. Real time inventory production
-                                tracking for eco blocks, and more!*in development*</h5>
+                            <p>A website/app project for a friend. Real time inventory production
+                                tracking for eco blocks, and more!*in development*</p>
                             <a href='https://njwright92.github.io/protracker/' className='btn btn-success btn-lg'>ProTracker.io</a>
                         </Col>
                     </Row>
