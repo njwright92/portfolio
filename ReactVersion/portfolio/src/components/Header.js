@@ -18,7 +18,7 @@ const Header = () => {
         <Navbar fixed='top' dark expand='md'
             style={{ backgroundColor: '#343131' }}
         >
-            <NavbarBrand className='ms-5' href="/">
+            <NavbarBrand className='ms-5' href='/'>
                 <img className="img-fluid img-thumbnail"
                     alt="dog"
                     src={Dog}
