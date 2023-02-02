@@ -12,8 +12,7 @@ body {
 h1,
 h2,
 h3,
-h4,
-h5 {
+h4 {
   font-family: 'Lobster', cursive;
 }
 
@@ -36,12 +35,11 @@ h5 {
 }
 
 .carouselItem {
-  height: 17em;
+  height: 19em;
 }
 
 .row-content {
-  border: .70em ridge rgb(74, 78, 78);
-  padding: .4em;
+  border: .50em ridge rgb(74, 78, 78);
 }
 
 .tabs {
