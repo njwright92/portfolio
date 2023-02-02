@@ -4,6 +4,7 @@ import { validateContactForm } from '../utils/validateContactForm';
 
 const SiteRequest = () => {
     const handleSubmit = (values, { resetForm }) => {
+        alert('Thank you, I have recieved your request!')
         console.log('form values:', values);
         console.log('in JSON format:', JSON.stringify(values));
         resetForm();
