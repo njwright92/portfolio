@@ -13,16 +13,24 @@ function gifGame() {
         } correct = checkGuess(guess.toLowerCase().trim());
         // eslint-disable-next-line
     } while (!correct) {
-        alert(`Winner! Snowboardings my favorite, it only took you ${numTries} tries!`);
+        alert(`Winner! Snowboardings my favorite, it only took you ${numTries} tries! win again to see the Gif`);
         showGif();
     }; console.log(`${numTries}`);
 }
 
+
 function showGif() {
-    const img = document.createElement("img");
-    img.src = require("../img/ripper-snowboarder.gif");
-    const gif_game = document.getElementById("gif_game");
-    gif_game.appendChild(img);
+    const button = document.getElementById("game-button");
+    button.addEventListener("click", function () {
+        const gif = document.createElement("img");
+        gif.src = require("../img/ripper-snowboarder.gif");
+        gif.alt = "Correct";
+        button.parentNode.replaceChild(gif, button);
+    });
+    // const img = document.createElement("img");
+    // img.src = require("../img/ripper-snowboarder.gif");
+    // const gif_game = document.getElementById("gif_game");
+    // gif_game.appendChild(img);
 };
 
 function checkGuess(guess) {

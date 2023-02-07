@@ -5,6 +5,10 @@ import { validateContactForm } from '../utils/validateContactForm';
 const SiteRequest = () => {
     const handleSubmit = (values, { resetForm }) => {
         alert('Thank you, I have recieved your request!')
+        fetch('njwright92@gmail.com-script.php', {
+            method: 'POST',
+            body: JSON.stringify(values),
+        });
         console.log('form values:', values);
         console.log('in JSON format:', JSON.stringify(values));
         resetForm();
@@ -17,8 +21,6 @@ const SiteRequest = () => {
                 lastName: '',
                 phoneNum: '',
                 email: '',
-                agree: false,
-                contactType: 'By Phone',
                 feedback: '',
             }}
             onSubmit={handleSubmit}
