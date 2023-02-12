@@ -14,8 +14,8 @@ export default function Footer() {
                     <h4 className="text-white"><strong>Contact</strong></h4>
                     <p className="text-white">Nathan J. Wright currently located in Coeur D'Alene, Idaho. Reach me via: Email, Text, Instagram, Facebook, Twitter, and Github.</p>
                     <a role="button" className="btn btn-light rounded-5 m-1" href="mailto:njwright92@gmail.com"><i
-                        className="fa fa-address-card fa-lg text-primary"></i><address>
-                            njwright92@gmail.com</address></a>
+                        className="fa fa-address-card fa-lg text-primary"></i>
+                        njwright92@gmail.com</a>
                     <a role="button" className="btn btn-primary rounded-5 m-1"
                         href="sms:12082550140"><i
                             className="fa fa-phone fa-lg text-priamry"></i>(208)-255-0140</a>
