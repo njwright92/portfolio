@@ -1,24 +1,5 @@
 const favoriteSport = ["baseball", "football", "skateboarding", "snowboarding"];
 
-function gifGame() {
-    let guess;
-    let numTries = 0;
-    let correct = false;
-    do {
-        guess = prompt(`which one is my favorite sport?\n\n${favoriteSport.join(", ")}`);
-        numTries += 1;
-        if (guess === null) {
-            alert("game aborted");
-            return
-        } correct = checkGuess(guess.toLowerCase().trim());
-        // eslint-disable-next-line
-    } while (!correct) {
-        alert(`Winner! Snowboardings my favorite, it only took you ${numTries} tries! win again to see the Gif`);
-        showGif();
-    }; console.log(`${numTries}`);
-}
-
-
 function showGif() {
     const button = document.getElementById("game-button");
     button.addEventListener("click", function () {
@@ -33,6 +14,23 @@ function showGif() {
     // gif_game.appendChild(img);
 };
 
+function gifGame() {
+    let guess;
+    let numTries = 0;
+    let correct = false;
+    do {
+        guess = prompt(`which one is my favorite sport?\n\n${favoriteSport.join(", ")}`);
+        numTries += 1;
+        if (guess === null) {
+            alert("game aborted");
+            return
+        } correct = checkGuess(guess.toLowerCase().trim());
+        // eslint-disable-next-line
+    } while (!correct) {
+        alert(`Winner! Snowboardings my favorite, it only took you ${numTries} tries!\n gotta win twice to see the Gif`);
+    }; console.log(`${numTries}`);
+}
+
 function checkGuess(guess) {
     let correct = false;
     console.log(guess);
@@ -46,6 +44,7 @@ function checkGuess(guess) {
         alert("wrong guess again.");
     } else {
         correct = true;
+        showGif();
     } return correct;
 }
 
