@@ -2,17 +2,16 @@ const favoriteSport = ["baseball", "football", "skateboarding", "snowboarding"];
 
 function showGif() {
     const button = document.getElementById("game-button");
+    button.removeEventListener("click", showGif);
+    button.textContent = "See GIF";
     button.addEventListener("click", function () {
         const gif = document.createElement("img");
         gif.src = require("../img/ripper-snowboarder.gif");
         gif.alt = "Correct";
         button.parentNode.replaceChild(gif, button);
     });
-    // const img = document.createElement("img");
-    // img.src = require("../img/ripper-snowboarder.gif");
-    // const gif_game = document.getElementById("gif_game");
-    // gif_game.appendChild(img);
-};
+}
+
 
 function gifGame() {
     let guess;
@@ -47,5 +46,6 @@ function checkGuess(guess) {
         showGif();
     } return correct;
 }
+
 
 export default gifGame;
