@@ -8,7 +8,6 @@ function showGif() {
     button.parentNode.replaceChild(gif, button);
 };
 
-
 function gifGame() {
     let guess;
     let numTries = 0;
@@ -19,14 +18,12 @@ function gifGame() {
         if (guess === null) {
             alert("game aborted");
             return
-        } correct = checkGuess(guess.toLowerCase().trim());
-        // eslint-disable-next-line
-    } while (!correct) {
-        alert(`Winner! Snowboardings my favorite, it only took you ${numTries} tries`);
-    }; console.log(`${numTries}`);
+        }
+        correct = checkGuess(guess.toLowerCase().trim(), numTries);
+    } while (!correct);
 }
 
-function checkGuess(guess) {
+function checkGuess(guess, numTries) {
     let correct = false;
     console.log(guess);
     if (!favoriteSport.includes(guess)) {
@@ -40,8 +37,10 @@ function checkGuess(guess) {
     } else {
         correct = true;
         showGif();
-    } return correct;
+        const message = numTries === 1 ? `Winner! It only took you 1 try!` : `Winner! It only took you ${numTries} tries!`;
+        alert(message);
+    }
+    return correct;
 }
-
 
 export default gifGame;
