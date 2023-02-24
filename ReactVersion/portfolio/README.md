@@ -1,48 +1,11 @@
-# My portfolio a simple site for practice with Nucamps teachings.
-youll find some info about me and links to other sites i've developed.
-also I've added a formm for people to request sites for mw to build.
+Welcome to my React-based portfolio site, showcasing my development skills and incorporating popular dependencies such as Bootstrap, Reactstrap, Formik, and Redux Toolkit. This site is a simple yet powerful project developed in alignment with Nucamp's teachings.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app), using the [Redux](https://redux.js.org/) and [Redux Toolkit](https://redux-toolkit.js.org/) template.
+In addition to providing information about me and my interests, this site also features links to other sites I've developed and includes a form for requesting custom site development. To ensure a seamless user experience, I've incorporated popular libraries like Redux Toolkit, Formik, Reactstrap, and Bootstrap.
 
-## Available Scripts
+As an added feature, I've included a JavaScript guessing game on my portfolio site, which rewards users with a GIF for correctly guessing the number. To implement this game, I utilized the React Spring library and vanilla JavaScript.
 
-In the project directory, you can run:
+In addition to the aforementioned dependencies, I also utilized other powerful dependencies such as @testing-library/jest-dom, @testing-library/react, @testing-library/user-event, bootstrap-social, font-awesome, gh-pages, mdb-react-ui-kit, react-redux, react-router-dom, and redux-logger.
 
-### `npm start`
+To view this project, it was bootstrapped with Create React App using the Redux and Redux Toolkit template. To run the app in development mode, clone this repo run npm install and  use "npm start" to view it in your browser Tests can be run using "npm test," and the app can be built for production using "npm run build."
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
-
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+For further information on Create React App and React, consult their documentation. Thank you for visiting my portfolio site, and please don't hesitate to reach out with any questions or inquiries regarding my development services. 
