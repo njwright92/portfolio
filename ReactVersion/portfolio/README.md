@@ -2,7 +2,7 @@ Welcome to my React-based portfolio site, showcasing my development skills and i
 
 In addition to providing information about me and my interests, this site also features links to other sites I've developed and includes a form for requesting custom site development. To ensure a seamless user experience, I've incorporated popular libraries like Redux Toolkit, Formik, Reactstrap, and Bootstrap.
 
-As an added feature, I've included a JavaScript guessing game on my portfolio site, which rewards users with a GIF for correctly guessing the number. To implement this game, I utilized the React Spring library and vanilla JavaScript.
+As an added feature, I've included a JavaScript guessing game on my portfolio site, which rewards users with a GIF for correctly guessing my favorite sport. To implement this game, I utilized the React Spring library and vanilla JavaScript.
 
 In addition to the aforementioned dependencies, I also utilized other powerful dependencies such as @testing-library/jest-dom, @testing-library/react, @testing-library/user-event, bootstrap-social, font-awesome, gh-pages, mdb-react-ui-kit, react-redux, react-router-dom, and redux-logger.
 
