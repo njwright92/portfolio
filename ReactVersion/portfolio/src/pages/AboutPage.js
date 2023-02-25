@@ -17,6 +17,9 @@ const About = () => {
             <li><h5>I'm currently a Chef/Bartender, but I'm studying to transition into tech.</h5></li>
             <li><h5>Traveling is great, I love new experiences, and want to see more cultures.</h5></li>
             <li><h5>Also love money, and women.</h5></li>
+            <li><h5>Something you might not know by looking at me is I can run really fast,
+              big fan of standup comedy aspiring to get onstage for open mic.
+              </h5></li>
           </ul>
         </Col>
         <Col>
