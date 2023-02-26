@@ -1,7 +1,21 @@
 .anim_gradient {
-  background: linear-gradient(270deg, olivedrab 30%, #53682A 70%);
-  background-Size: "400% 400%";
-  animation: "gradient 25s ease infinite";
+  background: linear-gradient(to right, olivedrab 60%, #7a5601 40%);
+  background-size: 400% 400%;
+  animation: gradient 15s ease infinite;
+}
+
+@keyframes gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+
+  50% {
+    background-position: 100% 50%;
+  }
+
+  100% {
+    background-position: 0% 50%;
+  }
 }
 
 
@@ -16,19 +30,6 @@ h4 {
   font-family: 'Lobster', cursive;
 }
 
-@keyframes linear-gradient {
-  0% {
-    background-position: 0% 50%;
-  }
-
-  50% {
-    background-position: 100% 50%;
-  }
-
-  100% {
-    background-position: 0% 50%;
-  }
-}
 
 #gif_game {
   size: 20rem;
