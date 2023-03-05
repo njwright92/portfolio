@@ -14,6 +14,7 @@ const Interests = () => {
 
         <Col className="col-5 col-md-6 col-lg-7 mx-auto row-content">
           <ul>
+            <h5>Snowboaring</h5>
             <li><h5> If I could replay an experience, I would go back to Bear Mountain. when I rode a chair lift.
               with my favorite pro snowboarder. 'Chris Bradshaw' "I do it all for the kids man".</h5></li>
             <li><h5> One goal I want to accomplish is to "just live" comfortably, and travel the
