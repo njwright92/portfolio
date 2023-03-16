@@ -40,4 +40,4 @@ To view this project, clone the repository and run npm install to install the re
 
 This project was bootstrapped with Create React App using the Redux and Redux Toolkit template. For further information on Create React App and React, consult their documentation.
 
-Thank you for visiting my portfolio site, and please don't hesitate to reach out with any questions or inquiries regarding my development services
+Thank you for visiting my portfolio site, and please don't hesitate to reach out with any questions or inquiries regarding my development services. My React Branch has the Updated verison and complete project.
