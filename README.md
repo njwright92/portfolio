@@ -1,5 +1,5 @@
 # Portfolio
-# link- https://njwright92.github.io/portfolio/
+
 This React-based portfolio project showcases my development skills, everything I have learned in NuCamps coding course, and incorporates popular dependencies to ensure a seamless user experience.  The project includes links to other sites I've developed and features a form for requesting custom site development.
 
 # Libraries:
