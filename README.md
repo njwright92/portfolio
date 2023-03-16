@@ -1,5 +1,6 @@
 # Portfolio
-This React-based portfolio project showcases my development skills and incorporates popular dependencies to ensure a seamless user experience. The project includes links to other sites I've developed and features a form for requesting custom site development.
+# link- https://njwright92.github.io/portfolio/
+This React-based portfolio project showcases my development skills, everything I have learned in NuCamps coding course, and incorporates popular dependencies to ensure a seamless user experience.  The project includes links to other sites I've developed and features a form for requesting custom site development.
 
 # Libraries:
 
@@ -23,7 +24,6 @@ This React-based portfolio project showcases my development skills and incorpora
 "redux-logger": Used for logging Redux actions and state changes.
 "typeface-lobster": Used to import the Lobster font.
 "typeface-open-sans": Used to import the Open Sans font.
-"web-vitals": Used to measure web performance metrics.
 
 # Features:
 
