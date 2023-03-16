@@ -1,7 +1,6 @@
 const favoriteSport = ["baseball", "football", "skateboarding", "snowboarding"];
 
 function showGif() {
-    const button = document.getElementById('game-button');
     const gif = document.createElement("img");
     gif.src = require("../img/ripper-snowboarder.gif");
     gif.alt = "Correct";
@@ -18,12 +17,14 @@ function gifGame() {
         if (guess === null) {
             alert("game aborted");
             return
-        }
-        correct = checkGuess(guess.toLowerCase().trim(), numTries);
-    } while (!correct);
+        } correct = checkGuess(guess.toLowerCase().trim());
+        // eslint-disable-next-line
+    } while (!correct) {
+        alert(`Winner! Snowboardings my favorite, it only took you ${numTries} tries!\n gotta win twice to see the Gif`);
+    }; console.log(`${numTries}`);
 }
 
-function checkGuess(guess, numTries) {
+function checkGuess(guess) {
     let correct = false;
     console.log(guess);
     if (!favoriteSport.includes(guess)) {
@@ -37,10 +38,8 @@ function checkGuess(guess, numTries) {
     } else {
         correct = true;
         showGif();
-        const message = numTries === 1 ? `Winner! It only took you 1 try!` : `Winner! It only took you ${numTries} tries!`;
-        alert(message);
-    }
-    return correct;
+    } return correct;
 }
+
 
 export default gifGame;
