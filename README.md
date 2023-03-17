@@ -1,8 +1,8 @@
-# <span style="color: green;"> Portfolio</span>
+# <span style="color: blue;"> Portfolio</span>
 
 This React-based portfolio project showcases my development skills, everything I have learned in NuCamps coding course, and incorporates popular dependencies to ensure a seamless user experience. The project includes links to other sites I've developed fun facts about me, and features a form for requesting custom site development.
 
-<span style="color: #556B2F;"># Libraries:</span>
+# <span style="color: blue;"> Libraries:</span>
 
 "@reduxjs/toolkit": Used to manage application state efficiently.
 "bootstrap": Used to create responsive and mobile-first UIs.
@@ -20,7 +20,7 @@ This React-based portfolio project showcases my development skills, everything I
 "reactstrap": Used to build responsive and mobile-first UI components.
 "redux-logger": Used for logging Redux actions and state changes.
 
-<span style="color: #556B2F;"># Features:</span>
+# <span style="color: blue;"> Features:</span>
 
 A form for requesting custom site development.
 Links to other sites I've developed.
@@ -28,11 +28,11 @@ A JavaScript guessing game that rewards users with a GIF for correctly guessing 
 Responsive and mobile-first UI components.
 Animations in the guessing game.
 
-<span style="color: #556B2F;"># Getting Started:</span>
+# <span style="color: blue;"> Getting Started:</span>
 
 To view this project, clone the repository and run npm install to install the required dependencies. Use npm start to view the app in your browser. Tests can be run using npm test, and the app can be built for production using npm run build.
 
-<span style="color: #556B2F;"># Acknowledgments:</span>
+# <span style="color: blue;"> Acknowledgments:</span>
 
 This project was bootstrapped with Create React App using the Redux and Redux Toolkit template. For further information on Create React App and React, consult their documentation.
 
