@@ -1,4 +1,4 @@
-<span style="color: #556B2F;"># Portfolio</span>
+# <span style="color: #556B2F;"> Portfolio</span>
 
 This React-based portfolio project showcases my development skills, everything I have learned in NuCamps coding course, and incorporates popular dependencies to ensure a seamless user experience. The project includes links to other sites I've developed fun facts about me, and features a form for requesting custom site development.
 
