@@ -1,16 +1,13 @@
 # Portfolio
 
-This React-based portfolio project showcases my development skills, everything I have learned in NuCamps coding course, and incorporates popular dependencies to ensure a seamless user experience.  The project includes links to other sites I've developed and features a form for requesting custom site development.
+This React-based portfolio project showcases my development skills, everything I have learned in NuCamps coding course, and incorporates popular dependencies to ensure a seamless user experience.  The project includes links to other sites I've developed fun facts about me, and features a form for requesting custom site development.
 
 # Libraries:
 
 "@reduxjs/toolkit": Used to manage application state efficiently.
-"@testing-library/jest-dom": Used for testing React components.
-"@testing-library/react": Used for testing React components.
-"@testing-library/user-event": Used for testing React components.
 "bootstrap": Used to create responsive and mobile-first UIs.
 "bootstrap-social": Used to add social media icons to the site.
-"font-awesome":  Used for adding font icons.
+"font-awesome": Used for adding font icons.
 "formik": Used for building forms in React.
 "gh-pages": Used to deploy the app on GitHub Pages.
 "mdb-react-ui-kit": Used to create reusable UI components.
@@ -19,11 +16,9 @@ This React-based portfolio project showcases my development skills, everything I
 "react-redux": Used to connect React components to the Redux store.
 "react-router-dom": Used for routing in a React app.
 "react-scripts": Used to create a development server and build the app.
-"react-spring":  Used to create animations in the guessing game.
+"react-spring": Used to create animations in the guessing game.
 "reactstrap": Used to build responsive and mobile-first UI components.
 "redux-logger": Used for logging Redux actions and state changes.
-"typeface-lobster": Used to import the Lobster font.
-"typeface-open-sans": Used to import the Open Sans font.
 
 # Features:
 
