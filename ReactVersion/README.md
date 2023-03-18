@@ -1,7 +1,7 @@
 # Portfolio
 This React-based portfolio project showcases my development skills and incorporates popular dependencies to ensure a seamless user experience. The project includes links to other sites I've developed and features a form for requesting custom site development.
 
-# Libraries:
+# Libraries/Dependecies:
 
 "@reduxjs/toolkit": Used to manage application state efficiently.
 "@testing-library/jest-dom": Used for testing React components.
