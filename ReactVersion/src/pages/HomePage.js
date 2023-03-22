@@ -2,9 +2,9 @@ import { Col, Container, Row } from "reactstrap";
 import nys from '../img/nys.gif';
 import SubHeader from "../components/SubHeader";
 import MyWork from "../features/Tabs";
-import SiteRequest from "../features/SiteRequest";
 import { Button } from 'reactstrap';
 import gifGame from "../features/gifGame";
+import SiteRequestCard from "../features/card";
 
 const HomePage = () => {
     return (
@@ -25,7 +25,7 @@ const HomePage = () => {
             </Row>
             <Row className="align-items-center">
                 <Col className="col-7 col-md-6 col-lg-4 mx-auto mt-2 mb-2 row-content">
-                    <SiteRequest />
+                    <SiteRequestCard />
                 </Col>
             </Row>
         </Container>
