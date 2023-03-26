@@ -10,10 +10,12 @@
     "@testing-library/user-event": "^14.4.3",
     "bootstrap": "^5.1.3",
     "bootstrap-social": "^5.1.1",
+    "express": "^4.18.2",
     "font-awesome": "^4.7.0",
     "formik": "^2.2.9",
     "gh-pages": "^5.0.0",
     "mdb-react-ui-kit": "^5.1.0",
+    "path": "^0.12.7",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-redux": "^8.0.5",
@@ -32,7 +34,8 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "go": "nodemon node server"
   },
   "eslintConfig": {
     "extends": [

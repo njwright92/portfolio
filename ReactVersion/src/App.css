@@ -1,7 +1,12 @@
 .anim_gradient {
-  background: linear-gradient(to right, olivedrab 60%, #7a5601 40%);
+  background: linear-gradient(to right, olivedrab 40%, yellow 60%, #7a5601 40%, #7B4D1E 60%);
   background-size: 400% 400%;
-  animation: gradient 15s ease infinite;
+  animation: gradient 10s ease infinite;
+}
+
+.anim_gradient:hover {
+  background-position: 100%;
+  transition: background 0.5s ease-out;
 }
 
 @keyframes gradient {
@@ -17,6 +22,7 @@
     background-position: 0% 50%;
   }
 }
+
 
 
 body {
