@@ -1,6 +1,6 @@
 .anim_gradient {
-  background: linear-gradient(to right, olivedrab 40%, yellow 60%, #7a5601 40%, #7B4D1E 60%);
-  background-size: 400% 400%;
+  background: linear-gradient(to right, olivedrab 40%, rgb(167, 93, 19) 60%, #7a5601 40%);
+  background-size: 300% 300%;
   animation: gradient 10s ease infinite;
 }
 
