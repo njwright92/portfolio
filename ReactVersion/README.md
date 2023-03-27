@@ -27,6 +27,7 @@ A JavaScript guessing game that rewards users with a GIF for correctly guessing 
 Animations in the guessing game. 
   Getting Started:
 To view this project, clone the repository and run "npm install" to install the required dependencies. Use "npm start" to view the app in your browser. The app can be built for production using "npm run build", "npm run deploy" to deploy the production build to gh-pages. and "npm run go" to start the local server and view the app in your browser.
+Also incorporated google analytics to track real time user and data information.
 
 #### Acknowledgments:
   This project was bootstrapped with Create React App using the Redux and Redux Toolkit template. For further information on Create React App and React, consult their documentation.
