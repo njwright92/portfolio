@@ -1,7 +1,7 @@
 # Portfolio
 This React-based portfolio project showcases my development skills from nuCamps fullStack development program and incorporates popular dependencies to ensure a seamless user experience. The project includes links to other sites I've developed and features a form for requesting custom site development.
 
-## Libraries/Dependecies:
+## Libraries:
 
 Express: A fast and minimalist web framework for Node.js.
 Nodemon: A tool that monitors changes in your Node.js application and automatically restarts the server.
