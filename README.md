@@ -1,5 +1,6 @@
 # Portfolio
 This React-based portfolio project showcases my development skills from nuCamps fullStack development program and incorporates popular dependencies to ensure a seamless user experience. The project includes links to other sites I've developed and features a form for requesting custom site development.
+The react branch holds the up to date code and gh-pages holds the production build code.
 
 ## Libraries:
 
