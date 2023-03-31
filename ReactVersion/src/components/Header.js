@@ -21,12 +21,12 @@ const Header = () => {
                     alt="dog"
                     src={Dog}
                     style={{
-                        height: 80,
+                        height: 60,
                         float: 'left',
-                        marginRight: '3rem',
+                        marginRight: '1rem',
                     }}
                 />
-                <span className='navbar-brand-text' style={{ marginLeft: '10em', display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
+                <span className='navbar-brand-text' style={{ marginLeft: '5em', display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
                     <h1 className='fw-bold text-center'>Natedoggs SPA</h1>
                 </span>
 
