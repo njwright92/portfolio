@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.b13b25cb.css",
-    "main.js": "/portfolio/static/js/main.ce02355c.js",
+    "main.js": "/portfolio/static/js/main.cd18e1fc.js",
     "static/media/nys.gif": "/portfolio/static/media/nys.de9ac1cb1025a4c2876b.gif",
     "static/media/fontawesome-webfont.svg?v=4.7.0": "/portfolio/static/media/fontawesome-webfont.c1e38fd9e0e74ba58f7a.svg",
     "static/media/ripper-snowboarder.gif": "/portfolio/static/media/ripper-snowboarder.a838402ca66030c79fa9.gif",
@@ -43,10 +43,10 @@
     "static/media/dog.jpeg": "/portfolio/static/media/dog.c5c5871ce2256707726f.jpeg",
     "index.html": "/portfolio/index.html",
     "main.b13b25cb.css.map": "/portfolio/static/css/main.b13b25cb.css.map",
-    "main.ce02355c.js.map": "/portfolio/static/js/main.ce02355c.js.map"
+    "main.cd18e1fc.js.map": "/portfolio/static/js/main.cd18e1fc.js.map"
   },
   "entrypoints": [
     "static/css/main.b13b25cb.css",
-    "static/js/main.ce02355c.js"
+    "static/js/main.cd18e1fc.js"
   ]
 }
