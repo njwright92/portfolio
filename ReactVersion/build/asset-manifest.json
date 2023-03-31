@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.9f17b0f4.css",
-    "main.js": "/portfolio/static/js/main.3f892037.js",
+    "main.css": "/portfolio/static/css/main.b13b25cb.css",
+    "main.js": "/portfolio/static/js/main.ce02355c.js",
     "static/media/nys.gif": "/portfolio/static/media/nys.de9ac1cb1025a4c2876b.gif",
     "static/media/fontawesome-webfont.svg?v=4.7.0": "/portfolio/static/media/fontawesome-webfont.c1e38fd9e0e74ba58f7a.svg",
     "static/media/ripper-snowboarder.gif": "/portfolio/static/media/ripper-snowboarder.a838402ca66030c79fa9.gif",
@@ -42,11 +42,11 @@
     "static/media/open-sans-latin-400italic.woff2": "/portfolio/static/media/open-sans-latin-400italic.bb915319f59c02c348a6.woff2",
     "static/media/dog.jpeg": "/portfolio/static/media/dog.c5c5871ce2256707726f.jpeg",
     "index.html": "/portfolio/index.html",
-    "main.9f17b0f4.css.map": "/portfolio/static/css/main.9f17b0f4.css.map",
-    "main.3f892037.js.map": "/portfolio/static/js/main.3f892037.js.map"
+    "main.b13b25cb.css.map": "/portfolio/static/css/main.b13b25cb.css.map",
+    "main.ce02355c.js.map": "/portfolio/static/js/main.ce02355c.js.map"
   },
   "entrypoints": [
-    "static/css/main.9f17b0f4.css",
-    "static/js/main.3f892037.js"
+    "static/css/main.b13b25cb.css",
+    "static/js/main.ce02355c.js"
   ]
 }

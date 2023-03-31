@@ -1,50 +1,50 @@
 body {
-    background-image: linear-gradient(to bottom, olivedrab, #53682A);
-    font-family: "open sans", sans-serif;
-    font-size: large;
+    background-image: linear-gradient(to bottom, #6B7B6C, #B0B3A3);
+    font-family: "Open Sans", sans-serif;
+    font-size: 18px;
     font-weight: 700;
-
 }
 
 h1,
 h2,
 h3 {
     text-align: center;
-    font-family: "Lobster";
+    font-family: "Lobster", cursive;
 }
 
 footer {
     background-color: #343131;
+    color: #fff;
+    padding: 2em;
 }
 
 .navbar {
     background-color: #343131;
+    color: #fff;
 }
 
 .jumbotron {
     margin: 0;
-    padding: 1em;
-    background-image: linear-gradient(to right, olivedrab, #53682A);
-    color: black;
+    padding: 2em;
+    background-image: linear-gradient(to right, #6B7B6C, #B0B3A3);
+    color: #000;
 }
 
 .row-content {
-    border: .60em ridge rgb(74, 78, 78);
-    padding: .25em;
- 
+    border: 3px ridge #4A4E4E;
+    padding: 1em;
 }
-
 
 .tab-content {
     background-color: #343131;
-    border: .25em solid #DDD;
+    border: 1px solid #DDD;
     border-top: none;
-    padding: .25em;
-    color: aliceblue;
+    padding: 1em;
+    color: #fff;
 }
 
 .btn {
- margin: 2px;
+    margin: 2px;
 }
 
 footer div {
@@ -52,29 +52,25 @@ footer div {
     align-content: center;
 }
 
-
 #about {
-    margin-top: .5em;
+    margin-top: 1em;
 }
 
-.carousel-item {   
+.carousel-item {
     height: 17em;
 }
 
 .vert .carousel-item-next.carousel-item-left,
 .vert .carousel-item-prev.carousel-item-right {
-    -webkit-transform: translate3d(0, 0, 0);
     transform: translate3d(0, 0, 0);
 }
 
 .vert .carousel-item-next,
 .vert .active.carousel-item-right {
-    -webkit-transform: translate3d(0, 100%, 0);
     transform: translate3d(0, 100%, 0);
 }
 
 .vert .carousel-item-prev,
 .vert .active.carousel-item-left {
-    -webkit-transform: translate3d(0, -100%, 5);
     transform: translate3d(0, -100%, 5);
 }

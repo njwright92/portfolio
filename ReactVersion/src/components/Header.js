@@ -10,26 +10,30 @@ import {
 import { NavLink } from "react-router-dom";
 import Dog from '../img/dog.jpeg';
 
-
 const Header = () => {
     const [menuOpen, setMenuOpen] = useState(false);
 
     return (
-        <Navbar fixed='top' dark expand='md'
-            style={{ backgroundColor: '#343131' }}
-        >
-            <NavbarBrand className='ms-5' href='#'>
-                <img className="img-fluid img-thumbnail"
+        <Navbar fixed='top' dark expand='md' style={{ backgroundColor: '#343131' }}>
+            <NavbarBrand className='mx-auto' href='#'>
+                <img
+                    className="d-inline-block align-top img-fluid img-thumbnail rounded-circle app-logo"
                     alt="dog"
                     src={Dog}
                     style={{
-                        height: 80
+                        height: 80,
+                        float: 'left',
+                        marginRight: '3rem',
                     }}
                 />
+                <span className='navbar-brand-text' style={{ marginLeft: '10em', display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
+                    <h1 className='fw-bold text-center'>Natedoggs SPA</h1>
+                </span>
+
             </NavbarBrand>
             <NavbarToggler onClick={() => setMenuOpen(!menuOpen)} />
             <Collapse isOpen={menuOpen} navbar>
-                <Nav navbar>
+                <Nav navbar className='ms-auto'>
                     <NavItem>
                         <NavLink className='nav-link' to='/'>
                             <i className='fa fa-home fa-lg' aria-hidden="true" /> Home
@@ -48,7 +52,6 @@ const Header = () => {
                 </Nav>
             </Collapse>
         </Navbar>
-
     )
 }
 
