@@ -21,7 +21,7 @@ export default function Footer() {
                         <FaMobileAlt className="text-light" /> (208)-255-0140
                     </a>
                     <h4 className="text-white mt-2">Social Links</h4>
-                    <a className="btn btn-danger btn-lg rounded-circle m-1" href="https://www.instagram.com/biggdoggtalez/">
+                    <a className="btn btn-danger btn-lg rounded-circle m-1" href="https://www.instagram.com/nate_wright3/">
                         <FaInstagram />
                     </a>
                     <a className="btn btn-primary btn-lg rounded-circle m-1" href="http://facebook.com/njwright92">
