@@ -54,7 +54,7 @@ const Header = () => {
                     </NavItem>
                     <NavItem>
                         <NavLink className="nav-link" to="/Interests">
-                            <FaSnowflake size={30} style={{ animationDuration: "5s" }} />{" "}
+                            <FaSnowflake size={30} style={{ animationDuration: "1s" }} />
                             Interests
                         </NavLink>
                     </NavItem>

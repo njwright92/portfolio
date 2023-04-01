@@ -39,12 +39,8 @@ const Interests = () => {
             </p>
           </div>
         </Col>
-        <Col className="col-12 col-md-6 col-lg-5 mx-auto">
-          <Carousels2 />
-        </Col>
       </Row>
     </Container>
-    </Container >
   );
 };
 
