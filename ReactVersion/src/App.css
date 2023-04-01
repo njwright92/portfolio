@@ -70,7 +70,9 @@ h4 {
 }
 
 @media (prefers-reduced-motion: no-preference) {
-  .App-logo {
+
+  .App-logo,
+  #gif_game {
     animation: App-logo-float infinite 5s ease-in-out;
   }
 }

@@ -7,7 +7,7 @@ const SiteRequestCard = () => {
             <CardBody>
                 <CardTitle tag="h1" className="text-center mb-2">Request a Site!</CardTitle>
                 <CardText className="text-center text-white mb-1 font-weight-bold">
-                    I enjoy creating sites. Send me a site request, and I will let you know the estimated cost and time to complete. Send me an email with your request.
+                    I enjoy developing and designing websites and apps. Please submit your website or app request via email, and I will promptly respond with an estimated completion time and cost.
                 </CardText>
             </CardBody>
 

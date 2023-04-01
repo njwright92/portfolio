@@ -56,8 +56,8 @@ function MyWork() {
                 <TabPane tabId="2">
                     <Row>
                         <Col sm="12">
-                            <p style={{ marginBottom: "1.25em" }}>A website/app project for a friend. Real-time inventory production tracking for any Product! *in development*</p>
-                            <a href='https://njwright92.github.io/protracker/' className='btn btn-success btn-lg' style={{ borderRadius: "0.625em", marginRight: "0.625em" }}>ProTracker.io</a>
+                            <p style={{ marginBottom: "1.25em" }}>I am excited to introduce my upcoming WebApp that will enable users to track production in real-time. With this tool, you can monitor anything you produce effortlessly on-the-go. An Expo-React-Native app that can be used in browser or on Android/ios mobile devices.</p>
+                            <a href='https://github.com/njwright92/nativeprotracker.git' className='btn btn-success btn-lg' style={{ borderRadius: "0.625em", marginRight: "0.625em" }}>NativeProTracker</a>
                         </Col>
                     </Row>
                 </TabPane>
