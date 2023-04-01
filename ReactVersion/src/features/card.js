@@ -3,7 +3,7 @@ import { Card, CardBody, CardTitle, CardText, Button } from 'reactstrap';
 
 const SiteRequestCard = () => {
     return (
-        <Card className="bg-secondary shadow rounded-5">
+        <Card className="bg-secondary rounded-5">
             <CardBody>
                 <CardTitle tag="h1" className="text-center mb-2">Request a Site!</CardTitle>
                 <CardText className="text-center text-white mb-1 font-weight-bold">

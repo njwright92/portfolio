@@ -5,8 +5,7 @@ This React-based portfolio project showcases my development skills from nuCamps 
 
 Express: A fast and minimalist web framework for Node.js.
 Nodemon: A tool that monitors changes in your Node.js application and automatically restarts the server.
-Bootstrap: A CSS framework used to create responsive and mobile-first UIs.
-Bootstrap-social: A library used to add social media icons to the site.
+react-icons: A library used to add social media icons to the site.
 Font-awesome: A font icon toolkit used for adding font icons to the UI.
 Formik: A library used for building forms in React.
 gh-pages: A tool used to deploy the app on GitHub Pages.

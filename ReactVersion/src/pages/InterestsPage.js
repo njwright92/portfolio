@@ -1,37 +1,46 @@
 import { Container, Row, Col } from "reactstrap";
 import Carousels from "../features/carousels";
-import SubHeader from "../components/SubHeader"
+import SubHeader from "../components/SubHeader";
 
 const Interests = () => {
   return (
     <Container>
-      <SubHeader current='Interests' />
-      <h1><strong>Interests</strong></h1>
+      <SubHeader current="Interests" />
+      <h1 style={{ fontSize: "2.5em" }}>
+        <strong>Interests</strong>
+      </h1>
       <Row className="align-items-center">
-        <Col className="col-7 col-md-6 col-lg-5 mx-auto ">
+        <Col className="col-12 col-md-6 col-lg-5 mx-auto mb-3 order-md-1">
           <Carousels />
         </Col>
-
-        <Col className="col-5 col-md-6 col-lg-7 mx-auto row-content">
-          <ul>
-            <h5>Snowboaring</h5>
-            <li>
-              <h5> If I could replay an experience, I would go back to Bear Mountain. when I rode a chair lift with my favorite pro snowboarder. 'Chris Bradshaw' "I do it all for the kids man".
-              </h5>
-            </li>
-            <li>
-              <h5> One goal I want to accomplish is to "just live" comfortably, and travel the
-                World.
-              </h5>
-            </li>
-            <li>
-              <h5>Also love money and women.
-              </h5>
-            </li>
-          </ul>
+        <Col className="col-12 col-md-6 col-lg-7 mx-auto order-md-2">
+          <div
+            style={{
+              boxShadow: "5em 2em 1em rgba(0,0,0,0.5)",
+              padding: "1.25em",
+              borderRadius: "2em",
+              border: ".5em solid white"
+            }}
+          >
+            <p style={{ margin: "0 0 0.625em 0", fontSize: "1.5em", fontWeight: 'bold', }}>
+              Snowboarding
+            </p>
+            <p style={{ margin: "0 0 0.625em 0", fontSize: "1.125em", fontWeight: 'bold' }}>
+              If I could replay an experience, I would go back to Bear Mountain
+              when I rode a chair lift with my favorite pro snowboarder, Chris
+              Bradshaw. "I do it all for the kids man".
+            </p>
+            <p style={{ margin: "0 0 0.625em 0", fontSize: "1.125em", fontWeight: 'bold' }}>
+              One goal I want to accomplish is to "just live" comfortably, and
+              travel the world.
+            </p>
+            <p style={{ margin: "0", fontSize: "1em", fontWeight: 'bold' }}>
+              Also love money and women.
+            </p>
+          </div>
         </Col>
       </Row>
-    </Container >
+    </Container>
   );
 };
 
