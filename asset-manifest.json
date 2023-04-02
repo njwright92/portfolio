@@ -1,19 +1,19 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.0d00841c.css",
-    "main.js": "/portfolio/static/js/main.bd70318b.js",
+    "main.js": "/portfolio/static/js/main.7de7bdcd.js",
+    "static/media/brewing.gif": "/portfolio/static/media/brewing.9b560256a7f49c052661.gif",
     "static/media/nys.gif": "/portfolio/static/media/nys.de9ac1cb1025a4c2876b.gif",
     "static/media/fontawesome-webfont.svg?v=4.7.0": "/portfolio/static/media/fontawesome-webfont.c1e38fd9e0e74ba58f7a.svg",
     "static/media/ripper-snowboarder.gif": "/portfolio/static/media/ripper-snowboarder.a838402ca66030c79fa9.gif",
+    "static/media/ssMenu.jpg": "/portfolio/static/media/ssMenu.62ac5f69d44ef33d06a5.jpg",
+    "static/media/proTracker.jpg": "/portfolio/static/media/proTracker.8ee19ec61a1e4929656f.jpg",
     "static/media/rail.jpg": "/portfolio/static/media/rail.c430ef5918d096b86780.jpg",
     "static/media/i-got-love.mp3": "/portfolio/static/media/i-got-love.b295ca25e9a1275f4dbe.mp3",
     "static/media/bshaw.jpg": "/portfolio/static/media/bshaw.22361b6b3254e21b029d.jpg",
     "static/media/fontawesome-webfont.eot": "/portfolio/static/media/fontawesome-webfont.8b43027f47b20503057d.eot",
     "static/media/fontawesome-webfont.ttf?v=4.7.0": "/portfolio/static/media/fontawesome-webfont.1e59d2330b4c6deb84b3.ttf",
-    "static/media/beats.jpg": "/portfolio/static/media/beats.a06365845769f9e823f2.jpg",
     "static/media/sirloin.jpeg": "/portfolio/static/media/sirloin.edb84ca20b71c143eaf1.jpeg",
-    "static/media/food.jpeg": "/portfolio/static/media/food.184322cafd929eaad15d.jpeg",
-    "static/media/buddha.jpg": "/portfolio/static/media/buddha.0df0d44cbc7f010b7100.jpg",
     "static/media/fontawesome-webfont.woff?v=4.7.0": "/portfolio/static/media/fontawesome-webfont.f691f37e57f04c152e23.woff",
     "static/media/flinstone.jpg": "/portfolio/static/media/flinstone.cbb7c6330667ac710e3a.jpg",
     "static/media/fontawesome-webfont.woff2?v=4.7.0": "/portfolio/static/media/fontawesome-webfont.20fd1704ea223900efa9.woff2",
@@ -40,13 +40,12 @@
     "static/media/open-sans-latin-300italic.woff2": "/portfolio/static/media/open-sans-latin-300italic.b45d9997b704ab3daad1.woff2",
     "static/media/open-sans-latin-600italic.woff2": "/portfolio/static/media/open-sans-latin-600italic.cc4bf5b2955147801c02.woff2",
     "static/media/open-sans-latin-400italic.woff2": "/portfolio/static/media/open-sans-latin-400italic.bb915319f59c02c348a6.woff2",
-    "static/media/dog.jpeg": "/portfolio/static/media/dog.c5c5871ce2256707726f.jpeg",
     "index.html": "/portfolio/index.html",
     "main.0d00841c.css.map": "/portfolio/static/css/main.0d00841c.css.map",
-    "main.bd70318b.js.map": "/portfolio/static/js/main.bd70318b.js.map"
+    "main.7de7bdcd.js.map": "/portfolio/static/js/main.7de7bdcd.js.map"
   },
   "entrypoints": [
     "static/css/main.0d00841c.css",
-    "static/js/main.bd70318b.js"
+    "static/js/main.7de7bdcd.js"
   ]
 }
