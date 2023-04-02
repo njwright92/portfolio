@@ -9,7 +9,7 @@ import {
 } from "reactstrap";
 import { NavLink } from "react-router-dom";
 import { FaHome, FaSnowflake, FaInfo } from "react-icons/fa";
-import Dog from "../img/dog.jpeg";
+import jrDev from "../img/jrDev.jpeg";
 
 const Header = () => {
     const [menuOpen, setMenuOpen] = useState(false);
@@ -24,10 +24,10 @@ const Header = () => {
             <NavbarBrand className="mx-auto" href="#">
                 <img
                     className="d-inline-block align-top img-fluid img-thumbnail rounded-circle app-logo"
-                    alt="dog"
-                    src={Dog}
+                    alt="JrDev"
+                    src={jrDev}
                     style={{
-                        height: 60,
+                        height: '3em',
                         float: "left",
                         marginRight: "1rem",
                     }}
@@ -35,13 +35,13 @@ const Header = () => {
                 <span
                     className="navbar-brand-text"
                     style={{
-                        marginLeft: "5em",
+                        marginLeft: "3em",
                         display: "flex",
                         justifyContent: "center",
                         alignItems: "center",
                     }}
                 >
-                    <h1 className="fw-bold text-center">Natedoggs SPA</h1>
+                    <h1 className="fw-bold text-center">Nates ReactApp</h1>
                 </span>
             </NavbarBrand>
             <NavbarToggler onClick={() => setMenuOpen(!menuOpen)} />

@@ -25,11 +25,11 @@ const HomePage = () => {
                 </Col>
             </Row>
             <Row className="align-items-center">
-                <Col className="col-7 col-md-6 col-lg-4 mx-auto mt-2 mb-2">
+                <Col className="col-7 col-md-6 col-lg-4 mx-auto mt-3 mb-2">
                     <div
                         style={{
                             boxShadow: "-5em -2em 1em rgba(0,0,0,0.5)",
-                            padding: "1.25em",
+                            padding: ".75em",
                             borderRadius: "2em",
                             border: ".5em solid white"
                         }}

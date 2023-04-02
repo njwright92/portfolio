@@ -29,7 +29,7 @@ const About = () => {
               I love traveling and discovering new cultures. It's a great way to gain new experiences and broaden my horizons.
             </p>
             <p style={{ margin: "0 0 0.625em 0", fontSize: "1.125em", fontWeight: 'bold' }}>
-              "Something you might not know by looking at me is I can run really fast" <em>Jerry Seinfeld</em>. Big fan of stand-up comedy.
+              "Something you might not know by looking at me is I can run really fast" <em>'Jerry Seinfeld'</em>
             </p>
             <p style={{ margin: "0 0 0.625em 0", fontSize: "1.125em", fontWeight: 'bold' }}>
               I enjoy the process of creation, whether it be brewing, cooking, or building web applications.

@@ -19,7 +19,7 @@ function MyWork() {
 
     return (
         <div className="tabs" style={{ borderRadius: "0.625em", padding: "1.25em", backgroundColor: "#f5f5f5" }}>
-            <h2 style={{ marginBottom: ".5em" }}>My Work</h2>
+            <h2 style={{ marginBottom: ".5em", fontWeight: "bold" }}>My Work</h2>
             <Nav tabs className="d-flex justify-content-between flex-wrap flex-sm-nowrap flex-column flex-sm-row">
                 <NavItem>
                     <NavLink
