@@ -10,16 +10,16 @@ export default function Footer() {
         <MDBFooter>
             <MDBContainer
                 className='text-center text-white'
-                style={{ backgroundColor: '#343131', border: '4px solid #fff', borderRadius: '20px', boxShadow: '0px 0px 10px rgba(255, 255, 255, 0.5)' }}
+                style={{ backgroundColor: '#343131', border: '0.25em solid #fff', borderRadius: '1.25em', boxShadow: '0px 0px 0.625em rgba(255, 255, 255, 0.5)' }}
             >
                 <section>
                     <h4 className="text-white">
                         <strong>
-                            Contact
+                            Contact Info
                         </strong>
                     </h4>
                     <p className="text-white">
-                        Nathan J. Wright currently located in Coeur D'Alene, Idaho. Reach me via: Email, Text, Instagram, Facebook, Twitter, and Github.
+                        Nathan J. Wright currently located in Coeur D'Alene, Idaho.
                     </p>
                     <a role="button" className="btn btn-light rounded-5 m-1" href="mailto:njwright92@gmail.com">
                         <FaEnvelope className="text-primary" /> njwright92@gmail.com
