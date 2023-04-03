@@ -11,6 +11,11 @@ const HomePage = () => {
         <Container>
             <SubHeader current='Home' />
             <Row className="align-items-center">
+                <h1 style={{ fontSize: "2.5em" }}>
+                    <strong>
+                        Home
+                    </strong>
+                </h1>
                 <Col className="mx-auto mb-2 mt-2" id="gif_game">
                     <Button type='submit' id='game-button' color='danger' className="btn btn-lg" onClick={gifGame}>Show GIF</Button>
                 </Col>

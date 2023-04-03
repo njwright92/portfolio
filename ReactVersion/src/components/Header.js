@@ -6,6 +6,9 @@ import {
     NavbarToggler,
     Nav,
     NavItem,
+    Container,
+    Row,
+    Col
 } from "reactstrap";
 import { NavLink } from "react-router-dom";
 import { FaHome, FaSnowflake, FaInfo } from "react-icons/fa";
@@ -15,57 +18,61 @@ const Header = () => {
     const [menuOpen, setMenuOpen] = useState(false);
 
     return (
-        <Navbar
-            fixed="top"
-            dark
-            expand="md"
-            style={{ backgroundColor: "#343131" }}
-        >
-            <NavbarBrand className="mx-auto" href="#">
-                <img
-                    className="d-inline-block align-top img-fluid img-thumbnail rounded-circle app-logo"
-                    alt="JrDev"
-                    src={jrDev}
-                    style={{
-                        height: '3em',
-                        float: "left",
-                        marginRight: "1rem",
-                    }}
-                />
-                <span
-                    className="navbar-brand-text"
-                    style={{
-                        marginLeft: "3em",
-                        display: "flex",
-                        justifyContent: "center",
-                        alignItems: "center",
-                    }}
+        <Container>
+            <Row className="mb-0">
+                <Navbar
+                    fixed="top"
+                    dark
+                    expand="md"
+                    style={{ backgroundColor: "#343131" }}
                 >
-                    <h1 className="fw-bold text-center">Nates ReactApp</h1>
-                </span>
-            </NavbarBrand>
-            <NavbarToggler onClick={() => setMenuOpen(!menuOpen)} />
-            <Collapse isOpen={menuOpen} navbar>
-                <Nav navbar className="ms-auto">
-                    <NavItem>
-                        <NavLink className="nav-link" to="/">
-                            <FaHome size={30} /> Home
-                        </NavLink>
-                    </NavItem>
-                    <NavItem>
-                        <NavLink className="nav-link" to="/Interests">
-                            <FaSnowflake size={30} style={{ animationDuration: "1s" }} />
-                            Interests
-                        </NavLink>
-                    </NavItem>
-                    <NavItem>
-                        <NavLink className="nav-link" to="/About">
-                            <FaInfo size={30} /> About
-                        </NavLink>
-                    </NavItem>
-                </Nav>
-            </Collapse>
-        </Navbar>
+                    <Col className="d-flex justify-content-start mb-0">
+                        <NavbarBrand href="#">
+                            <img
+                                className="img-fluid rounded-circle"
+                                alt="JrDev"
+                                src={jrDev}
+                                style={{ height: '2.5em' }}
+                            />
+
+                        </NavbarBrand>
+                    </Col>
+                    <Col className="d-flex flex-column justify-content-center mb-0">
+                        <h1 className="fw-bold large mb-1">
+                            Showcase
+                        </h1>
+                        <p className="small mb-0">
+                            <em>
+                                "your best investment is in yourself"
+                            </em>
+                        </p>
+                    </Col>
+                    <Col className="d-flex justify-content-end mr-0 mb-0">
+                        <NavbarToggler onClick={() => setMenuOpen(!menuOpen)} />
+                        <Collapse isOpen={menuOpen} navbar>
+                            <Nav navbar className="ms-auto">
+                                <NavItem>
+                                    <NavLink className="nav-link" to="/">
+                                        <FaHome size={30} /> Home
+                                    </NavLink>
+                                </NavItem>
+                                <NavItem>
+                                    <NavLink className="nav-link" to="/Interests">
+                                        <FaSnowflake size={30} />
+                                        Interests
+                                    </NavLink>
+                                </NavItem>
+                                <NavItem>
+                                    <NavLink className="nav-link" to="/About">
+                                        <FaInfo size={30} /> About
+                                    </NavLink>
+                                </NavItem>
+                            </Nav>
+                        </Collapse>
+                    </Col>
+                </Navbar>
+            </Row>
+        </Container>
     );
 };
 

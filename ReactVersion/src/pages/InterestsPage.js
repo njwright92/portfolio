@@ -7,7 +7,9 @@ const Interests = () => {
     <Container>
       <SubHeader current="Interests" />
       <h1 style={{ fontSize: "2.5em" }}>
-        <strong>Interests</strong>
+        <strong>
+          Interests
+        </strong>
       </h1>
       <Row className="align-items-center">
         <Col className="col-12 col-md-6 col-lg-5 mx-auto mb-3 order-md-1">

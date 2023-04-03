@@ -7,7 +7,9 @@ const About = () => {
     <Container>
       <SubHeader current="About" />
       <h1 style={{ fontSize: "2.5em" }}>
-        <strong>About Me</strong>
+        <strong>
+          About Me
+          </strong>
       </h1>
       <Row className="align-items-center">
         <Col className="col-12 col-md-6 col-lg-5 mb-3 mx-auto order-md-2">
