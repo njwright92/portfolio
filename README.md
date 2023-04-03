@@ -17,7 +17,6 @@ React-Icons: A library that provides a set of reusable icons for React applicati
 React-Redux: A library used to connect React components to the Redux store. for future development
 React-Router-DOM: A library used for routing in a React app.
 React-scripts: A set of scripts used to create a development server and build the app.
-React-spring: A library used to create animations in the app.
 Reactstrap: A library used to build responsive and mobile-first UI components.
 Redux-logger: A tool used for logging Redux actions and state changes. for future development
 
