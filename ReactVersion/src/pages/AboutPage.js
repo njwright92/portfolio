@@ -6,10 +6,10 @@ const About = () => {
   return (
     <Container>
       <SubHeader current="About" />
-      <h1 style={{ fontSize: "2.5em" }}>
+      <h1 style={{ fontSize: "2.75em" }}>
         <strong>
           About Me
-          </strong>
+        </strong>
       </h1>
       <Row className="align-items-center">
         <Col className="col-12 col-md-6 col-lg-5 mb-3 mx-auto order-md-2">
@@ -25,7 +25,10 @@ const About = () => {
             }}
           >
             <p style={{ margin: "0 0 0.625em 0", fontSize: "1.125em", fontWeight: 'bold' }}>
-              I'm currently a BeerTender, studying to transition into tech.
+              I enjoy the process of creation, whether it be brewing, cooking, or building web applications. Most recenlty learing how to develop websites/apps, creating software that will make peoples lives easier.
+            </p>
+            <p style={{ margin: "0 0 0.625em 0", fontSize: "1.125em", fontWeight: 'bold' }}>
+              I'm currently a BeerTender transitioning into software development.
             </p>
             <p style={{ margin: "0 0 0.625em 0", fontSize: "1.125em", fontWeight: 'bold' }}>
               I love traveling and discovering new cultures. It's a great way to gain new experiences and broaden my horizons.
@@ -33,9 +36,7 @@ const About = () => {
             <p style={{ margin: "0 0 0.625em 0", fontSize: "1.125em", fontWeight: 'bold' }}>
               "Something you might not know by looking at me is I can run really fast" <em>'Jerry Seinfeld'</em>
             </p>
-            <p style={{ margin: "0 0 0.625em 0", fontSize: "1.125em", fontWeight: 'bold' }}>
-              I enjoy the process of creation, whether it be brewing, cooking, or building web applications.
-            </p>
+
           </div>
         </Col>
       </Row>

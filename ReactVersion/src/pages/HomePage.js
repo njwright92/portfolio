@@ -11,7 +11,7 @@ const HomePage = () => {
         <Container>
             <SubHeader current='Home' />
             <Row className="align-items-center">
-                <h1 style={{ fontSize: "2.5em" }}>
+                <h1 style={{ fontSize: "2.8em" }}>
                     <strong>
                         Home
                     </strong>
