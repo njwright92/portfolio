@@ -38,12 +38,12 @@ const Header = () => {
                         </NavbarBrand>
                     </Col>
                     <Col className="d-flex flex-column justify-content-center mb-0">
-                        <h1 className="fw-bold large mb-1">
+                        <h1 className="fw-bold large mb-1 text-success">
                             Showcase
                         </h1>
-                        <p className="small mb-0">
+                        <p className="small mb-0 text-light">
                             <em>
-                                "your best investment is in yourself"
+                                "Your best investment is in yourself"
                             </em>
                         </p>
                     </Col>
@@ -52,18 +52,18 @@ const Header = () => {
                         <Collapse isOpen={menuOpen} navbar>
                             <Nav navbar className="ms-auto">
                                 <NavItem>
-                                    <NavLink className="nav-link" to="/">
+                                    <NavLink className="nav-link text-primary" to="/">
                                         <FaHome size={30} /> Home
                                     </NavLink>
                                 </NavItem>
                                 <NavItem>
-                                    <NavLink className="nav-link" to="/Interests">
+                                    <NavLink className="nav-link text-light" to="/Interests">
                                         <FaSnowflake size={30} />
                                         Interests
                                     </NavLink>
                                 </NavItem>
                                 <NavItem>
-                                    <NavLink className="nav-link" to="/About">
+                                    <NavLink className="nav-link text-warning" to="/About">
                                         <FaInfo size={30} /> About
                                     </NavLink>
                                 </NavItem>
