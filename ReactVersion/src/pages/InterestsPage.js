@@ -6,7 +6,7 @@ const Interests = () => {
   return (
     <Container>
       <SubHeader current="Interests" />
-      <h1 style={{ fontSize: "2.75em" }}>
+      <h1 style={{ fontSize: "3em", textShadow: "2px 2px white" }}>
         <strong>
           Passions
         </strong>

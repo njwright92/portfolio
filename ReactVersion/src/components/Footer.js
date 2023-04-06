@@ -7,9 +7,9 @@ import { FaGithub, FaTwitter, FaFacebook, FaInstagram, FaEnvelope, FaMobileAlt, 
 
 export default function Footer() {
     return (
-        <MDBFooter>
+        <MDBFooter className='mb-0'>
             <MDBContainer
-                className='text-center text-white'
+                className='text-center text-white mb-0'
                 style={{ backgroundColor: '#343131', border: '0.25em solid #fff', borderRadius: '1.25em', boxShadow: '0px 0px 0.625em rgba(255, 255, 255, 0.5)' }}
             >
                 <section>

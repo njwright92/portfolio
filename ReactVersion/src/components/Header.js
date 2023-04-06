@@ -18,8 +18,8 @@ const Header = () => {
     const [menuOpen, setMenuOpen] = useState(false);
 
     return (
-        <Container>
-            <Row className="mb-0">
+        <Container className="mx-0 px-0">
+            <Row className="mb-0 mx-0 px-0">
                 <Navbar
                     fixed="top"
                     dark
@@ -38,16 +38,16 @@ const Header = () => {
                         </NavbarBrand>
                     </Col>
                     <Col className="d-flex flex-column justify-content-center mb-0">
-                        <h1 className="fw-bold large mb-1 text-success">
+                        <h1 className="mb-1 showcase">
                             Showcase
                         </h1>
-                        <p className="small mb-0 text-light">
+                        <p className="mb-0 headline">
                             <em>
                                 "Your best investment is in yourself"
                             </em>
                         </p>
                     </Col>
-                    <Col className="d-flex justify-content-end mr-0 mb-0">
+                    <Col className="d-flex justify-content-end m-0 p-0">
                         <NavbarToggler onClick={() => setMenuOpen(!menuOpen)} />
                         <Collapse isOpen={menuOpen} navbar>
                             <Nav navbar className="ms-auto">
@@ -59,7 +59,7 @@ const Header = () => {
                                 <NavItem>
                                     <NavLink className="nav-link text-light" to="/Interests">
                                         <FaSnowflake size={30} />
-                                        Interests
+                                        Passions
                                     </NavLink>
                                 </NavItem>
                                 <NavItem>
