@@ -4,13 +4,11 @@ This React-based portfolio project showcases my development skills from nuCamps 
 
 ## Libraries:
 Bootstrap: A front-end framework for building responsive and mobile-first UI components.
-Bootstrap Social: A set of social media icons and buttons built with Bootstrap.
-Express: A fast and minimalist web framework for Node.js.
+Bootstrap Social: A set of social media icons and buttons built with Bootstrap..
 Font-awesome: A font icon toolkit used for adding font icons to the UI.
 Formik: A library used for building forms in React.
 gh-pages: A tool used to deploy the app on GitHub Pages.
 mdb-react-ui-kit: A library used to create reusable UI components.
-Nodemon: A tool that monitors changes in your Node.js application and automatically restarts the server.
 React: A JavaScript library used to build the UI and manage application state.
 React-DOM: A library used for rendering React components.
 React-Icons: A library that provides a set of reusable icons for React applications.

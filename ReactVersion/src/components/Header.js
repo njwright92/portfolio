@@ -26,18 +26,18 @@ const Header = () => {
                     expand="md"
                     style={{ backgroundColor: "#343131" }}
                 >
-                    <Col className="d-flex justify-content-start mb-0">
+                    <Col className="d-flex justify-content-start px-0">
                         <NavbarBrand href="#">
                             <img
-                                className="img-fluid rounded-circle"
+                                className="img-fluid rounded-circle px-0 mx-0"
                                 alt="JrDev"
                                 src={jrDev}
-                                style={{ height: '2.5em' }}
+                                style={{ width: '4rem' }}
                             />
 
                         </NavbarBrand>
                     </Col>
-                    <Col className="d-flex flex-column justify-content-center mb-0">
+                    <Col className="d-flex flex-column justify-content-center mb-0 px-0 mx-0">
                         <h1 className="mb-1 showcase">
                             Showcase
                         </h1>
@@ -47,24 +47,24 @@ const Header = () => {
                             </em>
                         </p>
                     </Col>
-                    <Col className="d-flex justify-content-end m-0 p-0">
+                    <Col className="d-flex justify-content-end mx-0 px-0">
                         <NavbarToggler onClick={() => setMenuOpen(!menuOpen)} />
                         <Collapse isOpen={menuOpen} navbar>
-                            <Nav navbar className="ms-auto">
+                            <Nav navbar className="ms-auto mx-0 px-0">
                                 <NavItem>
                                     <NavLink className="nav-link text-primary" to="/">
-                                        <FaHome size={30} /> Home
+                                        <FaHome size={28} /> Home
                                     </NavLink>
                                 </NavItem>
                                 <NavItem>
                                     <NavLink className="nav-link text-light" to="/Interests">
-                                        <FaSnowflake size={30} />
+                                        <FaSnowflake size={28} />
                                         Passions
                                     </NavLink>
                                 </NavItem>
                                 <NavItem>
                                     <NavLink className="nav-link text-warning" to="/About">
-                                        <FaInfo size={30} /> About
+                                        <FaInfo size={28} /> About
                                     </NavLink>
                                 </NavItem>
                             </Nav>
