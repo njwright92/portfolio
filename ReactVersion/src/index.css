@@ -56,40 +56,9 @@ footer div {
   text-align: center;
 }
 
-/* Jumbotron */
-.jumbotron {
-  background-color: #f8f9fa;
-  color: #212529;
-  padding: 2rem;
-  margin-bottom: 2rem;
-}
 
 /* Navbar */
 .navbar {
   background-color: #343a40;
   color: #f8f9fa;
-}
-
-/* Carousel */
-.carousel-item {
-  height: 17rem;
-}
-
-/* Vertical Carousel */
-.vert .carousel-item-next.carousel-item-left,
-.vert .carousel-item-prev.carousel-item-right {
-  -webkit-transform: translate3d(0, 0, 0);
-  transform: translate3d(0, 0, 0);
-}
-
-.vert .carousel-item-next,
-.vert .active.carousel-item-right {
-  -webkit-transform: translate3d(0, 100%, 0);
-  transform: translate3d(0, 100%, 0);
-}
-
-.vert .carousel-item-prev,
-.vert .active.carousel-item-left {
-  -webkit-transform: translate3d(0, -100%, 5);
-  transform: translate3d(0, -100%, 5);
 }

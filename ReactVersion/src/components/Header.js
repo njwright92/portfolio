@@ -39,7 +39,7 @@ const Header = () => {
                     </Col>
                     <Col className="d-flex flex-column justify-content-center mb-0 px-0 mx-0">
                         <h1 className="mb-1 showcase">
-                            Showcase
+                            "Showcase"
                         </h1>
                         <p className="mb-0 headline">
                             <em>

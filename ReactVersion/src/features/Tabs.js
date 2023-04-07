@@ -18,9 +18,9 @@ function MyWork() {
     }
 
     return (
-        <div className="tabs" style={{ borderRadius: "0.625em", padding: "1.25em", backgroundColor: "#f5f5f5" }}>
+        <div className="tabs" style={{ borderRadius: "0.625em", padding: "1.25em", backgroundColor: "#7F9466" }}>
             <h2 style={{ marginBottom: ".5em", fontWeight: "bold" }}>My Work</h2>
-            <Nav tabs className="d-flex justify-content-between flex-wrap flex-sm-nowrap flex-column flex-sm-row">
+            <Nav tabs className="d-flex flex-wrap flex-sm-nowrap flex-column flex-sm-row">
                 <NavItem>
                     <NavLink
                         className={classnames({
@@ -56,7 +56,7 @@ function MyWork() {
                 <TabPane tabId="2">
                     <Row>
                         <Col sm="12">
-                            <p style={{ marginBottom: "1.25em" }}>I am excited to introduce my upcoming WebApp that will enable users to track production in real-time. With this tool, you can monitor anything you produce effortlessly on-the-go. An Expo-React-Native app that can be used in browser or on Android/ios mobile devices.</p>
+                            <p style={{ marginBottom: "1.25em" }}>I am excited to introduce my mobile webApp<em>*in development*</em> that will enable users to track production in real-time. With this tool, you can monitor anything you produce effortlessly on the go. An Expo-React-Native app that can be used in browser or on Android/ios mobile devices.</p>
                             <a href='https://github.com/njwright92/nativeprotracker.git' className='btn btn-success btn-lg' style={{ borderRadius: "0.625em", marginRight: "0.625em" }}>NativeProTracker</a>
                         </Col>
                     </Row>
