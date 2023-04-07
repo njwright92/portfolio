@@ -25,7 +25,6 @@ function gifGame() {
 
 function checkGuess(guess, numTries) {
     let correct = false;
-    console.log(guess);
     if (!favoriteSport.includes(guess)) {
         alert("Your guess is not one of the choices.")
     } else if (guess === "baseball") {
