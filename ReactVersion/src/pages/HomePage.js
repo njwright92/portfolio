@@ -26,7 +26,10 @@ const HomePage = () => {
                     <img src={nys} className="App-logo" alt="logo" style={{ borderRadius: '25%', boxShadow: "-5em -2em 1em rgba(0,0,0,0.5)" }} />
                 </Col>
 
-                <Col className="mt-4 mb-2 mx-auto" style={{ boxShadow: "5em 2em 1em rgba(0,0,0,0.5" }}>
+                <Col className="mt-4 mb-2 mx-auto"
+                    style={{
+                        boxShadow: "5em 2em 1em rgba(0,0,0,0.5"
+                    }}>
                     <MyWork />
                 </Col>
             </Row>

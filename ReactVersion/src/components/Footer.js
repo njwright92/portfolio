@@ -22,27 +22,32 @@ export default function Footer() {
                         Nathan J. Wright currently located in Coeur D'Alene, Idaho.
                     </p>
                     <a role="button" className="btn btn-light rounded-5 m-1" href="mailto:njwright92@gmail.com">
-                        <FaEnvelope className="text-primary" /> njwright92@gmail.com
+                        <FaEnvelope className="text-primary" />
+                        njwright92@gmail.com
                     </a>
                     <a role="button" className="btn btn-primary rounded-5 m-1" href="sms:12082550140">
-                        <FaMobileAlt className="text-light" /> (208)-255-0140
+                        <FaMobileAlt className="text-light" />
+                        (208)-255-0140
                     </a>
-                    <h4 className="text-white mt-2">Social Links</h4>
-                    <a className="btn btn-instagram btn-lg rounded-circle m-1" href="https://www.instagram.com/nate_wright3/">
+                    <h4 className="text-white mt-2">
+                        Social Links
+                    </h4>
+                    <a className="btn btn-lg rounded-pill btn-instagram shadow-sm m-0.5" href="https://www.instagram.com/nate_wright3/" style={{ backgroundColor: "#E4405F" }}>
                         <FaInstagram />
                     </a>
-                    <a className="btn btn-facebook btn-lg rounded-circle m-1" href="http://facebook.com/njwright92">
+                    <a className="btn btn-lg rounded-pill btn-facebook shadow-sm m-0.5" href="http://facebook.com/njwright92">
                         <FaFacebook />
                     </a>
-                    <a className="btn btn-twitter btn-lg rounded-circle m-1" href="http://twitter.com/naterbug321">
+                    <a className="btn btn-lg rounded-pill btn-twitter shadow-sm m-0.5" href="http://twitter.com/naterbug321">
                         <FaTwitter />
                     </a>
-                    <a className="btn btn-github btn-lg rounded-circle m-1" href="https://github.com/njwright92">
+                    <a className="btn btn-lg rounded-pill btn-github shadow-sm m-0.5" href="https://github.com/njwright92">
                         <FaGithub />
                     </a>
-                    <a className="btn btn-linkedin btn-lg rounded-circle m-1" href="https://www.linkedin.com/in/nathan-wright-78b237123/">
+                    <a className="btn btn-lg rounded-pill btn-linkedin shadow-sm m-0.5" href="https://www.linkedin.com/in/nathan-wright-78b237123/">
                         <FaLinkedin />
                     </a>
+
                 </section>
             </MDBContainer>
             <div
