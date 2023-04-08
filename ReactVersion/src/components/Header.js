@@ -29,10 +29,10 @@ const Header = () => {
                     <Col className="d-flex justify-content-start px-0">
                         <NavbarBrand href="#">
                             <img
-                                className="img-fluid rounded-circle px-0 mx-0"
+                                className=" img-fluid rounded-circle px-0 mx-0"
                                 alt="JrDev"
                                 src={jrDev}
-                                style={{ width: '4rem' }}
+                                style={{ height: '3.3rem'}}
                             />
 
                         </NavbarBrand>
