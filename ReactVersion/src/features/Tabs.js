@@ -53,7 +53,7 @@ function MyWork() {
                 <TabPane tabId="1">
                     <Row>
                         <Col sm="12">
-                            <p style={{ marginBottom: "1.25em" }}>My first site: a responsive Bootstrap project site for a hockey themed food truck!</p>
+                            <p style={{ marginBottom: "1.25em" }}>My first project: a responsive Bootstrap project site for a hockey themed food truck!</p>
                             <a href='https://slapshot16.com/' className='btn btn-success btn-lg' style={{ borderRadius: "0.625em", marginRight: "0.625em" }}>Slapshot16.com</a>
                         </Col>
                     </Row>
@@ -61,7 +61,7 @@ function MyWork() {
                 <TabPane tabId="2">
                     <Row>
                         <Col sm="12">
-                            <p style={{ marginBottom: "1.25em" }}>I am excited to introduce my mobile webApp<em>*in development*</em> that will enable users to track production in real-time. With this tool, you can monitor anything you produce effortlessly on the go. An Expo-React-Native app that can be used in browser or on Android/ios mobile devices.</p>
+                            <p style={{ marginBottom: "1.25em" }}>My latest project: a universal application built on ReactNative<em>*in development*</em> that will enable users to track production in real-time. With this tool, you can monitor anything you produce effortlessly on the go. An Expo-React-Native app that can be used in browser or on Android/ios mobile devices.</p>
                             <a href='https://github.com/njwright92/nativeprotracker.git' className='btn btn-success btn-lg' style={{ borderRadius: "0.625em", marginRight: "0.625em" }}>NativeProTracker</a>
                         </Col>
                     </Row>
