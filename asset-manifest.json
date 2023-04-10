@@ -1,8 +1,9 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.b5120159.css",
-    "main.js": "/portfolio/static/js/main.24144551.js",
+    "main.js": "/portfolio/static/js/main.aa6b90c7.js",
     "static/media/brewing.gif": "/portfolio/static/media/brewing.9b560256a7f49c052661.gif",
+    "static/media/jetPack.gif": "/portfolio/static/media/jetPack.4f4c0f91909ff71e2c1e.gif",
     "static/media/nys.gif": "/portfolio/static/media/nys.de9ac1cb1025a4c2876b.gif",
     "static/media/fontawesome-webfont.svg?v=4.7.0": "/portfolio/static/media/fontawesome-webfont.c1e38fd9e0e74ba58f7a.svg",
     "static/media/ripper-snowboarder.gif": "/portfolio/static/media/ripper-snowboarder.a838402ca66030c79fa9.gif",
@@ -11,9 +12,9 @@
     "static/media/rail.jpg": "/portfolio/static/media/rail.c430ef5918d096b86780.jpg",
     "static/media/i-got-love.mp3": "/portfolio/static/media/i-got-love.b295ca25e9a1275f4dbe.mp3",
     "static/media/bshaw.jpg": "/portfolio/static/media/bshaw.22361b6b3254e21b029d.jpg",
+    "static/media/medium.jpg": "/portfolio/static/media/medium.9346f59ea96645cf18a5.jpg",
     "static/media/fontawesome-webfont.eot": "/portfolio/static/media/fontawesome-webfont.8b43027f47b20503057d.eot",
     "static/media/fontawesome-webfont.ttf?v=4.7.0": "/portfolio/static/media/fontawesome-webfont.1e59d2330b4c6deb84b3.ttf",
-    "static/media/sirloin.jpeg": "/portfolio/static/media/sirloin.edb84ca20b71c143eaf1.jpeg",
     "static/media/fontawesome-webfont.woff?v=4.7.0": "/portfolio/static/media/fontawesome-webfont.f691f37e57f04c152e23.woff",
     "static/media/flinstone.jpg": "/portfolio/static/media/flinstone.cbb7c6330667ac710e3a.jpg",
     "static/media/fontawesome-webfont.woff2?v=4.7.0": "/portfolio/static/media/fontawesome-webfont.20fd1704ea223900efa9.woff2",
@@ -42,10 +43,10 @@
     "static/media/open-sans-latin-400italic.woff2": "/portfolio/static/media/open-sans-latin-400italic.bb915319f59c02c348a6.woff2",
     "index.html": "/portfolio/index.html",
     "main.b5120159.css.map": "/portfolio/static/css/main.b5120159.css.map",
-    "main.24144551.js.map": "/portfolio/static/js/main.24144551.js.map"
+    "main.aa6b90c7.js.map": "/portfolio/static/js/main.aa6b90c7.js.map"
   },
   "entrypoints": [
     "static/css/main.b5120159.css",
-    "static/js/main.24144551.js"
+    "static/js/main.aa6b90c7.js"
   ]
 }
