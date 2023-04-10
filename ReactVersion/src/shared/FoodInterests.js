@@ -25,7 +25,7 @@ export const FoodInterests = [
     },
     {
         style: { width: '6.5em' },
-        src: require('../img/sirloin.jpeg'),
+        src: require('../img/medium.jpg'),
         altText: 'Slide 5',
         key: 5,
     },

@@ -20,4 +20,11 @@ export const AboutMe = [
         key: 3,
 
     },
+    {
+        style: { width: '6.5em' },
+        src: require('../img/jetPack.gif'),
+        altText: 'Slide 4',
+        key: 1
+
+    },
 ];
