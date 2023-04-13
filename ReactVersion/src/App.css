@@ -46,6 +46,19 @@
   }
 }
 
+.animate-bounce {
+  animation: bounce 2s infinite;
+}
+
+@keyframes bounce {
+  0%, 100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-7px);
+  }
+}
+
 .showcase {
   font-size: 2.5em;
   font-weight: bold;

@@ -5,6 +5,7 @@ import MyWork from "../features/Tabs";
 import { Button } from 'reactstrap';
 import gifGame from "../features/gifGame";
 import SiteRequestCard from "../features/card";
+import { FaArrowUp } from "react-icons/fa";
 
 const HomePage = () => {
     return (
@@ -19,6 +20,10 @@ const HomePage = () => {
 
                 <Col className="mx-auto mb-2 mt-2" id="gif_game">
                     <Button type='submit' id='game-button' color='danger' className="btn btn-lg" onClick={gifGame}>Show GIF</Button>
+                    <p className="text-warning" style={{ marginTop: '1em', fontSize: '1.8em', fontWeight: 'bold' }}>
+                        <FaArrowUp className="animate-bounce" />
+                        Guessing Game!
+                    </p>
                 </Col>
             </Row>
             <Row className="align-items-center">
