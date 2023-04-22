@@ -38,7 +38,7 @@ const Interests = () => {
               travel the world.
             </p>
             <p style={{ margin: "0", fontSize: "1.125em", fontWeight: 'bold' }}>
-              Also love money and women.
+              Also like money and women.
             </p>
           </div>
         </Col>
