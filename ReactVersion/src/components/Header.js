@@ -32,7 +32,7 @@ const Header = () => {
                                 className=" img-fluid rounded-circle px-0 mx-0"
                                 alt="JrDev"
                                 src={jrDev}
-                                style={{ height: '3.3rem'}}
+                                style={{ height: '3.3rem' }}
                             />
 
                         </NavbarBrand>
