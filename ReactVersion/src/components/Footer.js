@@ -22,10 +22,10 @@ export default function Footer() {
                         Nathan J. Wright currently located in Coeur D'Alene, Idaho.
                     </p>
                     <a role="button" className="btn btn-light rounded-5 m-1" href="mailto:njwright92@gmail.com">
-                        <FaEnvelope className="text-primary" />email
+                        <FaEnvelope className="text-primary" />Email!
                     </a>
                     <a role="button" className="btn btn-primary rounded-5 m-1" href="sms:12082550140">
-                        <FaMobileAlt className="text-light" />phone
+                        <FaMobileAlt className="text-light" />Phone!
                     </a>
                     <h4 className="text-white mt-2">
                         Social Links
