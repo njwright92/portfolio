@@ -25,7 +25,7 @@ const Interests = () => {
             }}
           >
             <p style={{ margin: "0 0 0.625em 0", fontSize: "1.5em", fontWeight: 'bold', }}>
-              Snowboarding & Development
+              Software Development & Snowboarding!
             </p>
             <p style={{ margin: "0 0 0.625em 0", fontSize: "1.125em", fontWeight: 'bold', }}>
               Love continuously learning, and building my skills, AI got nothing on me.

@@ -25,7 +25,7 @@ const About = () => {
             }}
           >
             <p style={{ margin: "0 0 0.625em 0", fontSize: "1.125em", fontWeight: 'bold' }}>
-              I enjoy the process of creation, whether it be brewing, cooking, or web applications. Most recently learning how to develop software. Strive to code software that will make peoples lives easier.
+              I enjoy the process of creation, whether it be brewing, cooking, or web applications. Strive to engineer software that will make peoples lives easier.
             </p>
             <p style={{ margin: "0 0 0.625em 0", fontSize: "1.125em", fontWeight: 'bold' }}>
               I'm currently a BeerTender transitioning into Tech.
