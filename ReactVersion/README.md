@@ -1,5 +1,7 @@
 # Portfolio
+
 <img src="./src/img/gptLogo.png" width="30" height="30" alt="ChatGPT Logo">
+
 [![Website Status](https://img.shields.io/website-up-down-green-red/http/shields.io.svg)](https://njwright92.github.io/portfolio/)
 
 This portfolio project is built with React and showcases my development skills acquired through the nuCamps Full Stack Development program. The project includes dependencies to ensure a seamless user experience and features a form for requesting custom site development. The React branch has the most up-to-date code, and the gh-pages branch contains the production files
