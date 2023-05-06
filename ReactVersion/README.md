@@ -1,7 +1,6 @@
 # Portfolio
 
-<![ChatGPT Logo](./img/gptLogo.png)
-
+![ChatGPT Logo](./src/img/gptLogo.png)
 
 [![Website Status](https://img.shields.io/website-up-down-green-red/http/shields.io.svg)](https://njwright92.github.io/portfolio/)
 
