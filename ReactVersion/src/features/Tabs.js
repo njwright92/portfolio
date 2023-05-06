@@ -61,8 +61,8 @@ function MyWork() {
                 <TabPane tabId="2">
                     <Row>
                         <Col sm="12">
-                            <p style={{ marginBottom: "1.25em" }}>My latest project: A universal application built with Expo-ReactNative, redux, GCP-firebase/firestore, and more <em>*in development*</em>. It will enable users to track production in real-time. With this tool, you can monitor anything you produce effortlessly on the go.</p>
-                            <a href='https://github.com/njwright92/nativeprotracker.git' className='btn btn-success btn-lg' style={{ borderRadius: "0.625em", marginRight: "0.625em" }}>NativeProTracker</a>
+                            <p style={{ marginBottom: "1.25em" }}>My latest project: A universal application built with Expo-React-Native, redux, GCP-firebase/firestore, and more <em>*Web Version Now Live!*</em>. With this tool, users can effortlessly monitor anything they want or need to track on the go in real-time, making it a powerful way to track production and stay organized.</p>
+                            <a href='https://nativeprotracker.com/' className='btn btn-success btn-lg' style={{ borderRadius: "0.625em", marginRight: "0.625em" }}>NativeProTracker.com</a>
                         </Col>
                     </Row>
                 </TabPane>
