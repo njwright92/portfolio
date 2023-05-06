@@ -1,6 +1,8 @@
 # Portfolio
 
-![ChatGPT Logo](./img/gptLogo.png)
+<p>
+  <img src="./img/gptLogo.png" width="30" height="30" alt="ChatGPT Logo">
+</p>
 
 [![Website Status](https://img.shields.io/website-up-down-green-red/http/shields.io.svg)](https://njwright92.github.io/portfolio/)
 
