@@ -24,7 +24,7 @@ function MyWork() {
             backgroundColor: "#7F9466",
             border: "0.5em solid #343131"
         }}>
-            <h2 style={{ marginBottom: ".5em", fontWeight: "bold" }}>My Developments</h2>
+            <h1 style={{ marginBottom: ".5em", fontWeight: "bold" }}>My Projects</h1>
             <Nav tabs className="d-flex flex-wrap flex-sm-nowrap flex-column flex-sm-row">
                 <NavItem>
                     <NavLink
@@ -53,7 +53,7 @@ function MyWork() {
                 <TabPane tabId="1">
                     <Row>
                         <Col sm="12">
-                            <p style={{ marginBottom: "1.25em" }}>My first project: a responsive Bootstrap project site for a hockey themed food truck!</p>
+                            <p style={{ marginBottom: "1.25em" }}>My first project: A responsive, hockey-themed food truck website, utilizing Bootstrap, HTML5, CSS, and jQuery to master the fundamentals of web development and design.</p>
                             <a href='https://slapshot16.com/' className='btn btn-success btn-lg' style={{ borderRadius: "0.625em", marginRight: "0.625em" }}>SlapShot16.com</a>
                         </Col>
                     </Row>
@@ -61,7 +61,12 @@ function MyWork() {
                 <TabPane tabId="2">
                     <Row>
                         <Col sm="12">
-                            <p style={{ marginBottom: "1.25em" }}>My latest project: A universal application built with Expo-React-Native, redux, GCP-firebase/firestore, and more <em>*Web Version Now Live!*</em>. With this tool, users can effortlessly monitor anything they want or need to track on the go in real-time, making it a powerful way to track production and stay organized.</p>
+                            <p style={{ marginBottom: "1.25em" }}>
+                                Native Pro Tracker holds a special place in my heart as my first universal app built to learn about Expo-React-Native, Redux, GCP-Firebase/Firestore, and other technologies. It began as a learning app, but it has evolved into a powerful and professional tool with full-stack CRUD functionality, real-time database and authentication capabilities, and a seamless experience for tracking and managing various tasks and activities. The app's responsive design ensures compatibility with a wide range of devices, making it accessible to all users. Key features, including data visualization and production tracking, make it a versatile and user-friendly tool. Native Pro Tracker serves as a testament to my growth as a developer and my ability to create a practical and enjoyable app.
+                            </p>
+                            <p className="showcase">
+                                <em>Web Version Now Live!</em>
+                            </p>
                             <a href='https://www.nativeprotracker.com/' className='btn btn-success btn-lg' style={{ borderRadius: "0.625em", marginRight: "0.625em" }}>NativeProTracker.com</a>
                         </Col>
                     </Row>

@@ -1,10 +1,12 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.5b179840.css",
-    "main.js": "/portfolio/static/js/main.537a084b.js",
+    "main.js": "/portfolio/static/js/main.d011eb11.js",
     "static/media/brewing.gif": "/portfolio/static/media/brewing.9b560256a7f49c052661.gif",
     "static/media/jetPack.gif": "/portfolio/static/media/jetPack.4f4c0f91909ff71e2c1e.gif",
     "static/media/nys.gif": "/portfolio/static/media/nys.de9ac1cb1025a4c2876b.gif",
+    "static/media/charts.jpg": "/portfolio/static/media/charts.9ee9921e3cde9533e5d2.jpg",
+    "static/media/reducer.jpg": "/portfolio/static/media/reducer.bc602afbf31c85f3c630.jpg",
     "static/media/fontawesome-webfont.svg?v=4.7.0": "/portfolio/static/media/fontawesome-webfont.c1e38fd9e0e74ba58f7a.svg",
     "static/media/ripper-snowboarder.gif": "/portfolio/static/media/ripper-snowboarder.a838402ca66030c79fa9.gif",
     "static/media/ssMenu.jpg": "/portfolio/static/media/ssMenu.62ac5f69d44ef33d06a5.jpg",
@@ -43,10 +45,10 @@
     "static/media/open-sans-latin-400italic.woff2": "/portfolio/static/media/open-sans-latin-400italic.bb915319f59c02c348a6.woff2",
     "index.html": "/portfolio/index.html",
     "main.5b179840.css.map": "/portfolio/static/css/main.5b179840.css.map",
-    "main.537a084b.js.map": "/portfolio/static/js/main.537a084b.js.map"
+    "main.d011eb11.js.map": "/portfolio/static/js/main.d011eb11.js.map"
   },
   "entrypoints": [
     "static/css/main.5b179840.css",
-    "static/js/main.537a084b.js"
+    "static/js/main.d011eb11.js"
   ]
 }

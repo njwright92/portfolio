@@ -8,7 +8,7 @@ const About = () => {
       <SubHeader current="About" />
       <h1 style={{ fontSize: "3em", textShadow: "2px 2px white" }}>
         <strong>
-          About Me
+          About
         </strong>
       </h1>
       <Row className="align-items-center">
@@ -28,10 +28,13 @@ const About = () => {
               I enjoy the process of creation, whether it be brewing, cooking, or web applications. Strive to engineer software that will make peoples lives easier.
             </p>
             <p style={{ margin: "0 0 0.625em 0", fontSize: "1.125em", fontWeight: 'bold' }}>
-              I'm currently a BeerTender transitioning into Tech.
+              If you're interested in seeing some of the code I've developed, please visit my gitHub account linked in my footer.
             </p>
             <p style={{ margin: "0 0 0.625em 0", fontSize: "1.125em", fontWeight: 'bold' }}>
-              I love traveling and discovering new cultures. It's a great way to gain new experiences and broaden my horizons.
+              I am currently in the process of transitioning from my role as a BeerTender and freelance developer to pursuing my passion for tech.
+            </p>
+            <p style={{ margin: "0 0 0.625em 0", fontSize: "1.125em", fontWeight: 'bold' }}>
+              I have a deep passion for exploring the world and immersing myself in new cultures. Traveling is a powerful way to gain unique experiences, broaden my horizons, and push beyond my comfort zone.
             </p>
             <p style={{ margin: "0 0 0.625em 0", fontSize: "1.125em", fontWeight: 'bold' }}>
               "Something you might not know by looking at me is I can run really fast" <em>'Jerry Seinfeld'</em>
@@ -42,7 +45,7 @@ const About = () => {
       </Row>
       <Row className="align-items-center margin">
         <p style={{ margin: "1em", fontSize: "1.125em", fontWeight: 'bold' }}>
-          "I got love"
+          "I got love" 'Nate Dogg'
           <audio
             src={require("../mp3s/i-got-love.mp3")}
             controls

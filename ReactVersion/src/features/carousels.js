@@ -30,14 +30,15 @@ function Carousels(args) {
         setActiveIndex(newIndex);
     };
 
-    const slides = items.map((item) => {
+    const slides = items.map((item, index) => {
         return (
             <CarouselItem
                 onExiting={() => setAnimating(true)}
                 onExited={() => setAnimating(false)}
-                key={item.src}
+                key={index}
+                index={index}
             >
-                 <img src={item.src} alt={item.altText} className="carouselItem" style={{ borderRadius: '1em' }} />
+                <img src={item.src} alt={item.altText} className="carouselItem" style={{ borderRadius: '1em' }} />
             </CarouselItem>
         );
     });

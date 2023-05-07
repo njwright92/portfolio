@@ -28,14 +28,16 @@ const Interests = () => {
               Software Development & Snowboarding!
             </p>
             <p style={{ margin: "0 0 0.625em 0", fontSize: "1.125em", fontWeight: 'bold', }}>
-              Love continuously learning, and building my skills, AI got nothing on me.
+              I thrive on continuous learning and building my skills. I am dedicated to staying up-to-date with the latest technologies and trends. My drive and determination extend beyond the tech world. AI has nothing on me.
+            </p>
+            <p style={{ margin: "0", fontSize: "1.125em", fontWeight: 'bold' }}>
+              I am a well-rounded individual with a love for adventure and a hunger for success.
             </p>
             <p style={{ margin: "0 0 0.625em 0", fontSize: "1.125em", fontWeight: 'bold' }}>
               If I could replay an experience, It'd be when I rode a chair lift with Chris Bradshaw. "I do it all for the kids man".
             </p>
             <p style={{ margin: "0 0 0.625em 0", fontSize: "1.125em", fontWeight: 'bold' }}>
-              One goal I want to accomplish is to "just live" comfortably, and
-              travel the world.
+              One goal I want to accomplish is to "just live" comfortably, and travel the world.
             </p>
             <p style={{ margin: "0", fontSize: "1.125em", fontWeight: 'bold' }}>
               Also like money and women.
