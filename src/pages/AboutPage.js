@@ -28,13 +28,13 @@ const About = () => {
               I enjoy the process of creation, whether it be brewing, cooking, or web applications. Strive to engineer software that will make peoples lives easier.
             </p>
             <p style={{ margin: "0 0 0.625em 0", fontSize: "1.125em", fontWeight: 'bold' }}>
-              If you're interested in seeing some of the code I've developed, please visit my gitHub account linked in my footer.
+              If you're interested in seeing some of the code I've developed, please visit my gitHub account linked in the footer.
             </p>
             <p style={{ margin: "0 0 0.625em 0", fontSize: "1.125em", fontWeight: 'bold' }}>
-              I am currently in the process of transitioning from my role as a BeerTender and freelance developer to pursuing my passion for tech.
+              I am currently in the process of transitioning from my role as a BeerTender and freelance developer to pursuing my passion for tech. "Looking for full-time employment!"
             </p>
             <p style={{ margin: "0 0 0.625em 0", fontSize: "1.125em", fontWeight: 'bold' }}>
-              I have a deep passion for exploring the world and immersing myself in new cultures. Traveling is a powerful way to gain unique experiences, broaden my horizons, and push beyond my comfort zone.
+              I have a deep passion for exploring the world and immersing myself in new cultures. Traveling provides me with unique experiences, broadens my horizons, and pushes me out of my comfort zone.
             </p>
             <p style={{ margin: "0 0 0.625em 0", fontSize: "1.125em", fontWeight: 'bold' }}>
               "Something you might not know by looking at me is I can run really fast" <em>'Jerry Seinfeld'</em>
