@@ -1,8 +1,8 @@
+Check out my React Branch for the latest code and README, as this branch served as a learning experience for me.
+
 # Portfolio
 
-<p>
-  <img src="./img/gptLogo.png" width="30" height="30" alt="ChatGPT Logo">
-</p>
+<img src="./src/img/gptLogo.png" width="30" height="30" alt="ChatGPT Logo">
 
 [![Website Status](https://img.shields.io/website-up-down-green-red/http/shields.io.svg)](https://njwright92.github.io/portfolio/)
 
@@ -11,20 +11,20 @@ This portfolio project is built with React and showcases my development skills a
 
 ## Libraries:
 
-Bootstrap: A front-end framework for building responsive and mobile-first UI components.
-Bootstrap Social: A set of social media icons and buttons built with Bootstrap..
-Font-awesome: A font icon toolkit used for adding font icons to the UI.
-Formik: A library used for building forms in React.
-gh-pages: A tool used to deploy the app on GitHub Pages.
-mdb-react-ui-kit: A library used to create reusable UI components.
-React: A JavaScript library used to build the UI and manage application state.
-React-DOM: A library used for rendering React components.
-React-Icons: A library that provides a set of reusable icons for React applications.
-React-Redux: A library used to connect React components to the Redux store. for future development
-React-Router-DOM: A library used for routing in a React app.
-React-scripts: A set of scripts used to create a development server and build the app.
-Reactstrap: A library used to build responsive and mobile-first UI components.
-Redux-logger: A tool used for logging Redux actions and state changes. for future development
+- Bootstrap: A front-end framework for building responsive and mobile-first UI components.
+- Bootstrap Social: A set of social media icons and buttons built with Bootstrap..
+- Font-awesome: A font icon toolkit used for adding font icons to the UI.
+- Formik: A library used for building forms in React.
+- gh-pages: A tool used to deploy the app on GitHub Pages.
+- mdb-react-ui-kit: A library used to create reusable UI components.
+- React: A JavaScript library used to build the UI and manage application state.
+- React-DOM: A library used for rendering React components.
+- React-Icons: A library that provides a set of reusable icons for React applications.
+- React-Redux: A library used to connect React components to the Redux store. for future development
+- React-Router-DOM: A library used for routing in a React app.
+- React-scripts: A set of scripts used to create a development server and build the app.
+- Reactstrap: A library used to build responsive and mobile-first UI components.
+- Redux-logger: A tool used for logging Redux actions and state changes. for future development
 
 
 ### Features:
@@ -37,7 +37,10 @@ Animations in the game.
   
  ### Getting Started:
 
-To view this project, clone the repository and run "npm install" to install the required dependencies. Use "npm start" to view the app in your browser. The app can be built for production using "npm run build", "npm run deploy" to deploy the production build to gh-pages. and "npm run go" to start the local server and view the app in your browser.
+To view this project, clone the repository and run "npm install" to install the required dependencies. 
+- Use "npm start" to view the app in your browser. 
+- The app can be built for production using "npm run build", "npm run deploy" to deploy the production build to gh-pages. 
+- And "npm run go" to start the local server and view the app in your browser.
 Also incorporated google analytics to track real time user and data information.
 
 
@@ -51,5 +54,7 @@ Also incorporated google analytics to track real time user and data information.
 
 This app is licensed under the MIT License.
 &copy; Nate Wright
+
+
 
 
