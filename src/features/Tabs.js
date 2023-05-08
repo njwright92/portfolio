@@ -24,7 +24,7 @@ function MyWork() {
             backgroundColor: "#7F9466",
             border: "0.5em solid #343131"
         }}>
-            <h1 style={{ marginBottom: ".5em", fontWeight: "bold" }}>My Projects</h1>
+            <h1 style={{ marginBottom: ".5em", fontWeight: "bold" }}>Projects</h1>
             <Nav tabs className="d-flex flex-wrap flex-sm-nowrap flex-column flex-sm-row">
                 <NavItem>
                     <NavLink
