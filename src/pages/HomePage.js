@@ -6,6 +6,8 @@ import { Button } from 'reactstrap';
 import gifGame from "../features/gifGame";
 import SiteRequestCard from "../features/card";
 import { FaArrowUp } from "react-icons/fa";
+import { FaFilePdf } from 'react-icons/fa';
+import resume from '../img/Resume1.1.pdf';
 
 const HomePage = () => {
     return (
@@ -17,6 +19,13 @@ const HomePage = () => {
                         Home
                     </strong>
                 </h1>
+
+                <Col className="mx-auto mb-2 mt-2">
+                    <a href={resume} target="_blank" rel="noopener noreferrer" style={{ color: '#000080', fontSize: '2.5em' }}>
+                        <FaFilePdf /> View My Resume
+                    </a>
+                </Col>
+
 
                 <Col className="mx-auto mb-2 mt-2" id="gif_game">
                     <Button type='submit' id='game-button' color='danger' className="btn btn-lg" onClick={gifGame}>Show GIF</Button>
