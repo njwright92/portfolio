@@ -31,7 +31,7 @@ const About = () => {
               If you're interested in seeing some of the code I've developed, please visit my gitHub account linked in the footer.
             </p>
             <p style={{ margin: "0 0 0.625em 0", fontSize: "1.125em", fontWeight: 'bold' }}>
-              I am currently in the process of transitioning from my role as a BeerTender and freelance developer to pursuing my passion for tech. "Looking for full-time employment!"
+              I am currently in the process of transitioning from my role in the Hospitality Industry, and freelance developer to pursuing my passion for tech. "Looking for part-time employment!"
             </p>
             <p style={{ margin: "0 0 0.625em 0", fontSize: "1.125em", fontWeight: 'bold' }}>
               I have a deep passion for exploring the world and immersing myself in new cultures. Traveling provides me with unique experiences, broadens my horizons, and pushes me out of my comfort zone.
