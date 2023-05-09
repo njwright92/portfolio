@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.5b179840.css",
-    "main.js": "/portfolio/static/js/main.6ec282d1.js",
+    "main.js": "/portfolio/static/js/main.fabd16b6.js",
     "static/media/brewing.gif": "/portfolio/static/media/brewing.9b560256a7f49c052661.gif",
     "static/media/jetPack.gif": "/portfolio/static/media/jetPack.4f4c0f91909ff71e2c1e.gif",
     "static/media/nys.gif": "/portfolio/static/media/nys.de9ac1cb1025a4c2876b.gif",
@@ -21,6 +21,7 @@
     "static/media/flinstone.jpg": "/portfolio/static/media/flinstone.cbb7c6330667ac710e3a.jpg",
     "static/media/fontawesome-webfont.woff2?v=4.7.0": "/portfolio/static/media/fontawesome-webfont.20fd1704ea223900efa9.woff2",
     "static/media/me.jpg": "/portfolio/static/media/me.3e29b66e9abf6f5fc2ba.jpg",
+    "static/media/Resume1.1.pdf": "/portfolio/static/media/Resume1.1.0538e6ae55da8aa4cabe.pdf",
     "static/media/lobster-latin-400.woff": "/portfolio/static/media/lobster-latin-400.e4473cd7170c39b44c99.woff",
     "static/media/lobster-latin-400.woff2": "/portfolio/static/media/lobster-latin-400.484e338f970ddc242388.woff2",
     "static/media/open-sans-latin-800.woff": "/portfolio/static/media/open-sans-latin-800.8ab0bbdd48f276f4ba56.woff",
@@ -45,10 +46,10 @@
     "static/media/open-sans-latin-400italic.woff2": "/portfolio/static/media/open-sans-latin-400italic.bb915319f59c02c348a6.woff2",
     "index.html": "/portfolio/index.html",
     "main.5b179840.css.map": "/portfolio/static/css/main.5b179840.css.map",
-    "main.6ec282d1.js.map": "/portfolio/static/js/main.6ec282d1.js.map"
+    "main.fabd16b6.js.map": "/portfolio/static/js/main.fabd16b6.js.map"
   },
   "entrypoints": [
     "static/css/main.5b179840.css",
-    "static/js/main.6ec282d1.js"
+    "static/js/main.fabd16b6.js"
   ]
 }
