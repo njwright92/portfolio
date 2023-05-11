@@ -38,6 +38,7 @@ const About = () => {
             </p>
             <p style={{ margin: "0 0 0.625em 0", fontSize: "1.125em", fontWeight: 'bold' }}>
               "Something you might not know by looking at me is I can run really fast" <em>'Jerry Seinfeld'</em>
+              <strong>"I think the aliens are already among us." 'Bill Burr'</strong>
             </p>
 
           </div>
