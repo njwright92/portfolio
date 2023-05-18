@@ -1,8 +1,6 @@
-Check out my React Branch for the latest code and README, as this branch served as a learning experience for me.
+Check out my React Branch for the latest code and README, as this branch served as a learning experience for me. feature app protracker under maintence
 
 # Portfolio
-
-<img src="./src/img/gptLogo.png" width="30" height="30" alt="ChatGPT Logo">
 
 [![Website Status](https://img.shields.io/website-up-down-green-red/http/shields.io.svg)](https://njwright92.github.io/portfolio/)
 
