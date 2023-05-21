@@ -1,0 +1,11 @@
+{
+  "short_name": "Portfolio",
+  "name": "Create React App portfolio",
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#000000",
+  "background_color": "#ffffff",
+  "homepage": "https://njwright92.github.io/portfolio/",
+  "version": "0.1.0",
+  "private": true
+}
