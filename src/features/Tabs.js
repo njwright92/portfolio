@@ -62,12 +62,12 @@ function MyWork() {
                     <Row>
                         <Col sm="12">
                             <p style={{ marginBottom: "1.25em" }}>
-                                Native Pro Tracker holds a special place in my heart as my first universal app built to learn about Expo-React-Native, Redux, GCP-Firebase/Firestore, and other technologies. It began as a learning app, but it has evolved into a powerful and professional tool with full-stack CRUD functionality, real-time database and authentication capabilities, and a seamless experience for tracking and managing various tasks and activities. The app's responsive design ensures compatibility with a wide range of devices, making it accessible to all users. Key features, including data visualization and production tracking, make it a versatile and user-friendly tool. Native Pro Tracker serves as a testament to my growth as a developer and my ability to create a practical and enjoyable app.
+                                Native Pro Tracker is a testament to my journey as a developer, starting as a learning project, it has morphed into a powerful tool with full-stack CRUD operations, real-time data handling, and robust security via Firebase and Firestore. Serving through Google Kubernetes Engine ensures optimal performance, while the responsive design guarantees accessibility across various devices. Highlight features include data visualization and production tracking, making it a versatile solution for managing tasks. This app is more than a practical tool - it's a symbol of my growth and the fusion of complex technologies into a user-friendly application.
                             </p>
                             <p className="showcase">
-                                <em>Web Version Now Live!</em>
+                                <em>Web Version Live!</em>
                             </p>
-                            <a href='https://www.nativeprotracker.com/' className='btn btn-success btn-lg' style={{ borderRadius: "0.625em", marginRight: "0.625em" }}>NativeProTracker.com</a>
+                            <a href='https://www.nativeprotracker.com/' className='btn btn-success btn-lg' style={{ borderRadius: "0.625em", marginRight: "0.625em" }}>nativeprotracker.com</a>
                         </Col>
                     </Row>
                 </TabPane>
