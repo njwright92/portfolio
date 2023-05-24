@@ -1,13 +1,10 @@
 .anim_gradient {
-  background: linear-gradient(to right, #5B6E5C, #A5A888);
-  background-size: 400% 400%;
-  animation: gradient 20s ease infinite;
+  background-color: #A5A888;
 }
 
-
 .anim_gradient:hover {
-  background-position: 100%;
-  transition: background 0.5s ease-out;
+  background-color: #A5A888;
+  transition: background-color 0.5s ease-out;
 }
 
 @keyframes gradient {
@@ -23,6 +20,7 @@
     background-position: 0% 50%;
   }
 }
+
 
 .headline {
   font-size: .85rem;
