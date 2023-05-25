@@ -1,9 +1,9 @@
 .anim_gradient {
-  background-color: #A5A888;
+  background-color: #B3B3A6;
 }
 
 .anim_gradient:hover {
-  background-color: #A5A888;
+  background-color: #B3B3A6;
   transition: background-color 0.5s ease-out;
 }
 
@@ -28,9 +28,7 @@
   color: whitesmoke;
   overflow: hidden;
   border-right: .15em solid #aeaaaa;
-  /* Creates the typing cursor effect */
   white-space: nowrap;
-  /* Prevents the text from wrapping */
   animation: typing 6s steps(40) infinite;
 }
 
@@ -49,9 +47,12 @@
 }
 
 @keyframes bounce {
-  0%, 100% {
+
+  0%,
+  100% {
     transform: translateY(0);
   }
+
   50% {
     transform: translateY(-7px);
   }
