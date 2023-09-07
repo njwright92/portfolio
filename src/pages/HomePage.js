@@ -7,7 +7,7 @@ import gifGame from "../features/gifGame";
 import SiteRequestCard from "../features/card";
 import { FaArrowUp } from "react-icons/fa";
 import { FaFilePdf } from 'react-icons/fa';
-import resume from '../img/resume11.pdf';
+import resume from '../img/Resume.pdf';
 
 const HomePage = () => {
     return (
